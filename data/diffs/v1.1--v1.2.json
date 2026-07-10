@@ -1,0 +1,66 @@
+{
+  "from": "v1.1",
+  "to": "v1.2",
+  "generated": true,
+  "sample": true,
+  "summary": {
+    "papersAdded": 2,
+    "papersRemoved": 0,
+    "papersUpdated": 1,
+    "datasetsAdded": 2,
+    "benchmarksCorrected": 1,
+    "sectionsRevised": 3
+  },
+  "changes": [
+    {
+      "section": "Paper records",
+      "type": "modified",
+      "old": "{\"slug\":\"holmes-vad-2024\",\"method\":\"Holmes-VAD\",\"paradigm\":\"Instruction-Tuned\",\"venue\":\"arXiv\",\"year\":2024}",
+      "new": "{\"slug\":\"holmes-vad-2024\",\"method\":\"Holmes-VAD\",\"paradigm\":\"Instruction-Tuned\",\"venue\":\"CVPR\",\"year\":2024}"
+    },
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: QVAD"
+    },
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: OpenVAD-LM"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: VAGU"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: FineVAU"
+    },
+    {
+      "section": "Benchmarks",
+      "type": "modified",
+      "old": "{\"key\":\"lavad-ucf-auc\",\"method\":\"LAVAD\",\"dataset\":\"UCF-Crime\",\"metric\":\"AUC\",\"value\":\"80.20\"}",
+      "new": "{\"key\":\"lavad-ucf-auc\",\"method\":\"LAVAD\",\"dataset\":\"UCF-Crime\",\"metric\":\"AUC\",\"value\":\"80.28\"}"
+    },
+    {
+      "section": "Introduction",
+      "type": "modified",
+      "old": "Language models provide semantic context, descriptions, and reasoning interfaces for video anomaly detection.",
+      "new": "Language models provide semantic context, open-ended descriptions, retrieval, and reasoning interfaces for video anomaly detection."
+    },
+    {
+      "section": "Training-Free",
+      "type": "modified",
+      "old": "Training-free methods use caption generation and temporal language reasoning.",
+      "new": "Training-free methods use caption generation, retrieval, event-aware reasoning, and agentic pipelines."
+    },
+    {
+      "section": "Taxonomy",
+      "type": "reclassified",
+      "old": "Open-Set VAD",
+      "new": "Open-World / Open-Vocabulary VAD"
+    }
+  ]
+}

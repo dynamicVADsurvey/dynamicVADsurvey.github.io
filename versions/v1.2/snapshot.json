@@ -1,0 +1,23 @@
+{
+  "version":"v1.2","date":"July 9, 2026","status":"Current","tag":"survey-v1.2","sample":true,
+  "papers":[
+    {"slug":"lavad-2024","method":"LAVAD","paradigm":"Training-Free","venue":"CVPR","year":2024},
+    {"slug":"vadclip-2024","method":"VadCLIP","paradigm":"Weakly Supervised","venue":"AAAI","year":2024},
+    {"slug":"holmes-vad-2024","method":"Holmes-VAD","paradigm":"Instruction-Tuned","venue":"CVPR","year":2024},
+    {"slug":"qvad-2026","method":"QVAD","paradigm":"Training-Free","venue":"Sample venue","year":2026},
+    {"slug":"openvad-2025","method":"OpenVAD-LM","paradigm":"Open-World / Open-Vocabulary","venue":"Sample venue","year":2025}
+  ],
+  "datasets":[
+    {"slug":"ucf-crime","name":"UCF-Crime","temporal":"Video-level labels"},
+    {"slug":"cuhk-avenue","name":"CUHK Avenue","temporal":"Frame-level annotation"},
+    {"slug":"cuva","name":"CUVA","temporal":"Temporal segments"},
+    {"slug":"vagu","name":"VAGU","temporal":"Temporal grounding"},
+    {"slug":"finevau","name":"FineVAU","temporal":"Temporal segments"}
+  ],
+  "benchmarks":[{"key":"lavad-ucf-auc","method":"LAVAD","dataset":"UCF-Crime","metric":"AUC","value":"80.28"}],
+  "sections":{
+    "Introduction":"Language models provide semantic context, open-ended descriptions, retrieval, and reasoning interfaces for video anomaly detection.",
+    "Training-Free":"Training-free methods use caption generation, retrieval, event-aware reasoning, and agentic pipelines.",
+    "Taxonomy":"Open-World / Open-Vocabulary VAD"
+  }
+}

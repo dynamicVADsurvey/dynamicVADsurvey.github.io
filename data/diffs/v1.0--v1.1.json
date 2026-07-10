@@ -1,0 +1,43 @@
+{
+  "from": "v1.0",
+  "to": "v1.1",
+  "generated": true,
+  "sample": true,
+  "summary": {
+    "papersAdded": 1,
+    "papersRemoved": 1,
+    "papersUpdated": 0,
+    "datasetsAdded": 1,
+    "benchmarksCorrected": 0,
+    "sectionsRevised": 2
+  },
+  "changes": [
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: Holmes-VAD"
+    },
+    {
+      "section": "Paper records",
+      "type": "removed",
+      "old": "Removed: Duplicate Demo"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: CUVA"
+    },
+    {
+      "section": "Introduction",
+      "type": "modified",
+      "old": "Language models provide semantic context for video anomaly detection.",
+      "new": "Language models provide semantic context, descriptions, and reasoning interfaces for video anomaly detection."
+    },
+    {
+      "section": "Training-Free",
+      "type": "modified",
+      "old": "Training-free methods primarily rely on caption generation.",
+      "new": "Training-free methods use caption generation and temporal language reasoning."
+    }
+  ]
+}

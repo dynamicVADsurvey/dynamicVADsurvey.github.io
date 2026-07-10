@@ -1,0 +1,75 @@
+{
+  "from": "v1.0",
+  "to": "v1.2",
+  "generated": true,
+  "sample": true,
+  "summary": {
+    "papersAdded": 3,
+    "papersRemoved": 1,
+    "papersUpdated": 0,
+    "datasetsAdded": 3,
+    "benchmarksCorrected": 1,
+    "sectionsRevised": 3
+  },
+  "changes": [
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: Holmes-VAD"
+    },
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: QVAD"
+    },
+    {
+      "section": "Paper records",
+      "type": "added",
+      "new": "Added: OpenVAD-LM"
+    },
+    {
+      "section": "Paper records",
+      "type": "removed",
+      "old": "Removed: Duplicate Demo"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: CUVA"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: VAGU"
+    },
+    {
+      "section": "Datasets",
+      "type": "added",
+      "new": "Added: FineVAU"
+    },
+    {
+      "section": "Benchmarks",
+      "type": "modified",
+      "old": "{\"key\":\"lavad-ucf-auc\",\"method\":\"LAVAD\",\"dataset\":\"UCF-Crime\",\"metric\":\"AUC\",\"value\":\"80.20\"}",
+      "new": "{\"key\":\"lavad-ucf-auc\",\"method\":\"LAVAD\",\"dataset\":\"UCF-Crime\",\"metric\":\"AUC\",\"value\":\"80.28\"}"
+    },
+    {
+      "section": "Introduction",
+      "type": "modified",
+      "old": "Language models provide semantic context for video anomaly detection.",
+      "new": "Language models provide semantic context, open-ended descriptions, retrieval, and reasoning interfaces for video anomaly detection."
+    },
+    {
+      "section": "Training-Free",
+      "type": "modified",
+      "old": "Training-free methods primarily rely on caption generation.",
+      "new": "Training-free methods use caption generation, retrieval, event-aware reasoning, and agentic pipelines."
+    },
+    {
+      "section": "Taxonomy",
+      "type": "reclassified",
+      "old": "Open-Set VAD",
+      "new": "Open-World / Open-Vocabulary VAD"
+    }
+  ]
+}

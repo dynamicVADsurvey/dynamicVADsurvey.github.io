@@ -1,0 +1,18 @@
+{
+  "version":"v1.0","date":"January 12, 2026","status":"Archival","tag":"survey-v1.0","sample":true,
+  "papers":[
+    {"slug":"lavad-2024","method":"LAVAD","paradigm":"Training-Free","venue":"CVPR","year":2024},
+    {"slug":"vadclip-2024","method":"VadCLIP","paradigm":"Weakly Supervised","venue":"AAAI","year":2024},
+    {"slug":"duplicate-demo","method":"Duplicate Demo","paradigm":"Training-Free","venue":"Sample","year":2024}
+  ],
+  "datasets":[
+    {"slug":"ucf-crime","name":"UCF-Crime","temporal":"Video-level labels"},
+    {"slug":"cuhk-avenue","name":"CUHK Avenue","temporal":"Frame-level annotation"}
+  ],
+  "benchmarks":[{"key":"lavad-ucf-auc","method":"LAVAD","dataset":"UCF-Crime","metric":"AUC","value":"80.20"}],
+  "sections":{
+    "Introduction":"Language models provide semantic context for video anomaly detection.",
+    "Training-Free":"Training-free methods primarily rely on caption generation.",
+    "Taxonomy":"Open-Set VAD"
+  }
+}

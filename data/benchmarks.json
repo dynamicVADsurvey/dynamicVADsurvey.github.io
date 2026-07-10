@@ -1,0 +1,5 @@
+[
+ {"group":"Semi-supervised VAD","dataset":"CUHK Avenue","method":"Sample baseline","metric":"Frame AUC","value":"86.2","protocol":"Standard split (verify)","source":"Sample data","reliability":"Protocol Unclear","comparable":false},
+ {"group":"Weakly supervised VAD","dataset":"UCF-Crime","method":"VadCLIP","metric":"AUC","value":"84.5","protocol":"Author-reported (verify)","source":"Sample data","reliability":"Author Reported","comparable":true},
+ {"group":"Training-free LM-based VAD","dataset":"UCF-Crime","method":"LAVAD","metric":"AUC","value":"80.28","previous":"80.20","protocol":"Author-reported (verify)","source":"Concept-spec example","reliability":"Protocol Unclear","comparable":false,"corrected":"v1.2"}
+]

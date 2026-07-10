@@ -1,0 +1,19 @@
+{
+  "version":"v1.1","date":"March 18, 2026","status":"Maintained","tag":"survey-v1.1","sample":true,
+  "papers":[
+    {"slug":"lavad-2024","method":"LAVAD","paradigm":"Training-Free","venue":"CVPR","year":2024},
+    {"slug":"vadclip-2024","method":"VadCLIP","paradigm":"Weakly Supervised","venue":"AAAI","year":2024},
+    {"slug":"holmes-vad-2024","method":"Holmes-VAD","paradigm":"Instruction-Tuned","venue":"arXiv","year":2024}
+  ],
+  "datasets":[
+    {"slug":"ucf-crime","name":"UCF-Crime","temporal":"Video-level labels"},
+    {"slug":"cuhk-avenue","name":"CUHK Avenue","temporal":"Frame-level annotation"},
+    {"slug":"cuva","name":"CUVA","temporal":"Temporal segments"}
+  ],
+  "benchmarks":[{"key":"lavad-ucf-auc","method":"LAVAD","dataset":"UCF-Crime","metric":"AUC","value":"80.20"}],
+  "sections":{
+    "Introduction":"Language models provide semantic context, descriptions, and reasoning interfaces for video anomaly detection.",
+    "Training-Free":"Training-free methods use caption generation and temporal language reasoning.",
+    "Taxonomy":"Open-Set VAD"
+  }
+}

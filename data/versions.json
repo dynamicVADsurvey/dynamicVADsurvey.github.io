@@ -1,0 +1,5 @@
+[
+ {"version":"v1.2","date":"July 9, 2026","title":"Dataset and benchmark expansion","status":"Current","tag":"survey-v1.2","summary":"Adds representative methods and datasets, revises training-free discussion, and records benchmark corrections.","counts":{"papersAdded":8,"datasetsAdded":2,"recordsUpdated":9,"benchmarksCorrected":3,"sectionsRevised":4}},
+ {"version":"v1.1","date":"March 18, 2026","title":"First maintained update","status":"Maintained","tag":"survey-v1.1","summary":"First localized update after the archival release.","counts":{"papersAdded":6,"datasetsAdded":1,"recordsUpdated":3,"benchmarksCorrected":1,"sectionsRevised":2}},
+ {"version":"v1.0","date":"January 12, 2026","title":"Initial archival release","status":"Archival","tag":"survey-v1.0","summary":"Initial versioned survey snapshot.","counts":{"papersAdded":147,"datasetsAdded":23,"recordsUpdated":0,"benchmarksCorrected":0,"sectionsRevised":0}}
+]
