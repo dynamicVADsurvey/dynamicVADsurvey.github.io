@@ -53,5 +53,4 @@ For the intended organization/user site, name the repository `dynamicvadsurvey.g
 3. Add verified paper, code, project, repository, contact, archival PDF, and citation URLs.
 4. Copy the current reviewed state into a new `versions/vX.Y/snapshot.json`. The build automatically regenerates every chronological pair under `data/diffs/` and publishes the new snapshot route.
 5. Run `npm run check` and manually review generated pages before tagging a release.
-
 The maintenance policy intentionally prevents automatic publication of uncertain metadata, taxonomy changes, benchmark superiority claims, removals, or major prose rewrites.
