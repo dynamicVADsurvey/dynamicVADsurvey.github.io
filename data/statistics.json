@@ -1,9 +1,9 @@
 {
-  "papers": 161,
-  "datasets": 26,
+  "papers": 182,
+  "datasets": 28,
   "paradigms": 5,
-  "version": "v1.2",
-  "lastUpdated": "July 2026",
-  "lastUpdatedFull": "July 9, 2026",
-  "sampleNotice": "The aggregate statistics mirror the concept specification; detailed records below are clearly marked representative sample data until the reviewed corpus is supplied."
+  "version": "v1.0",
+  "lastUpdated": "September 2026",
+  "lastUpdatedFull": "September 21, 2026",
+  "sampleNotice": "Structured dataset, benchmark, method, and reference records are now populated from the survey PDF (Tables 3-6 and the bibliography). Values are transcribed from the paper and should be verified against original sources before scholarly release. Aggregate 'papers' reflects the target reviewed corpus; detailed method records cover representative benchmark-table and prose methods."
 }

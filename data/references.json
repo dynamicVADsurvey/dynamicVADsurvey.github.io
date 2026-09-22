@@ -1,4 +1,1458 @@
 [
- {"id":1,"key":"survey","title":"Language Models in Video Anomaly Detection: A Sustainable Dynamic Survey","authors":"Authors to be supplied","venue":"Archival paper details pending","url":"#sample-link"},
- {"id":2,"key":"lavad","title":"Harnessing Large Language Models for Training-Free Video Anomaly Detection","authors":"Bibliographic details pending verification","venue":"CVPR 2024","url":"#sample-link"}
+ {
+  "id": 1,
+  "key": "ref1",
+  "title": "Anomaly detection: A survey",
+  "authors": "V. Chandola, A. Banerjee, V. Kumar",
+  "venue": "ACM Computing Surveys, vol. 41, no. 3, pp. 1-58, 2009",
+  "url": "#"
+ },
+ {
+  "id": 2,
+  "key": "ref2",
+  "title": "A unifying review of deep and shallow anomaly detection",
+  "authors": "L. Ruff, J. R. Kauffmann, R. A. Vandermeulen, G. Montavon, W. Samek, M. Kloft, T. G. Dietterich, K.-R. Muller",
+  "venue": "Proceedings of the IEEE, vol. 109, no. 5, pp. 756-795, 2021",
+  "url": "#"
+ },
+ {
+  "id": 3,
+  "key": "ref3",
+  "title": "Adaptive background mixture models for real-time tracking",
+  "authors": "C. Stauffer, W. E. L. Grimson",
+  "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, vol. 2, 1999, pp. 246-252",
+  "url": "#"
+ },
+ {
+  "id": 4,
+  "key": "ref4",
+  "title": "A survey on visual surveillance of object motion and behaviors",
+  "authors": "W. Hu, T. Tan, L. Wang, S. Maybank",
+  "venue": "IEEE Transactions on Systems, Man, and Cybernetics, Part C, vol. 34, no. 3, pp. 334-352, 2004",
+  "url": "#"
+ },
+ {
+  "id": 5,
+  "key": "ref5",
+  "title": "A survey of vision-based trajectory learning and analysis for surveillance",
+  "authors": "B. T. Morris, M. M. Trivedi",
+  "venue": "IEEE Transactions on Circuits and Systems for Video Technology, vol. 18, no. 8, pp. 1114-1127, 2008",
+  "url": "#"
+ },
+ {
+  "id": 6,
+  "key": "ref6",
+  "title": "Detecting irregularities in images and in video",
+  "authors": "O. Boiman, M. Irani",
+  "venue": "International Journal of Computer Vision, vol. 74, no. 1, pp. 17-31, 2007",
+  "url": "#"
+ },
+ {
+  "id": 7,
+  "key": "ref7",
+  "title": "Robust real-time unusual event detection using multiple fixed-location monitors",
+  "authors": "A. Adam, E. Rivlin, I. Shimshoni, D. Reinitz",
+  "venue": "IEEE transactions on pattern analysis and machine intelligence, vol. 30, no. 3, pp. 555-560, 2008",
+  "url": "#"
+ },
+ {
+  "id": 8,
+  "key": "ref8",
+  "title": "Anomaly detection in extremely crowded scenes using spatio-temporal motion pattern models",
+  "authors": "L. Kratz, K. Nishino",
+  "venue": "IEEE Conference on Computer Vision and Pattern Recognition, 2009, pp. 1446-1453",
+  "url": "#"
+ },
+ {
+  "id": 9,
+  "key": "ref9",
+  "title": "Abnormal crowd behavior detection using social force model",
+  "authors": "R. Mehran, A. Oyama, M. Shah",
+  "venue": "2009 IEEE conference on computer vision and pattern recognition. IEEE, 2009, pp. 935-942",
+  "url": "#"
+ },
+ {
+  "id": 10,
+  "key": "ref10",
+  "title": "Observe locally, infer globally: A space-time mrf for detecting abnormal activities with incremental updates",
+  "authors": "J. Kim, K. Grauman",
+  "venue": "IEEE Conference on Computer Vision and Pattern Recognition, 2009, pp. 2921-2928",
+  "url": "#"
+ },
+ {
+  "id": 11,
+  "key": "ref11",
+  "title": "Anomaly detection in crowded scenes",
+  "authors": "V. Mahadevan, W. Li, V. Bhalodia, N. Vasconcelos",
+  "venue": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2010, pp. 1975-1981",
+  "url": "#"
+ },
+ {
+  "id": 12,
+  "key": "ref12",
+  "title": "Chaotic invariants of lagrangian particle trajectories for anomaly detection in crowded scenes",
+  "authors": "S. Wu, B. E. Moore, M. Shah",
+  "venue": "IEEE Conference on Computer Vision and Pattern Recognition, 2010, pp. 2054-2060",
+  "url": "#"
+ },
+ {
+  "id": 13,
+  "key": "ref13",
+  "title": "Sparse reconstruction cost for abnormal event detection",
+  "authors": "Y. Cong, J. Yuan, J. Liu",
+  "venue": "IEEE Conference on Computer Vision and Pattern Recognition, 2011, pp. 3449-3456",
+  "url": "#"
+ },
+ {
+  "id": 14,
+  "key": "ref14",
+  "title": "Video anomaly detection based on local statistical aggregates",
+  "authors": "V. Saligrama, Z. Chen",
+  "venue": "IEEE Conference on Computer Vision and Pattern Recognition, 2012, pp. 2112-2119",
+  "url": "#"
+ },
+ {
+  "id": 15,
+  "key": "ref15",
+  "title": "An on-line, real-time learning method for detecting anomalies in videos using spatio-temporal compositions",
+  "authors": "M. J. Roshtkhari, M. D. Levine",
+  "venue": "Computer Vision and Image Understanding, vol. 117, no. 10, pp. 1436-1452, 2013",
+  "url": "#"
+ },
+ {
+  "id": 16,
+  "key": "ref16",
+  "title": "Remembering history with convolutional lstm for anomaly detection",
+  "authors": "W. Luo, W. Liu, S. Gao",
+  "venue": "2017 IEEE International conference on multimedia and expo (ICME). IEEE, 2017, pp. 439-444",
+  "url": "#"
+ },
+ {
+  "id": 17,
+  "key": "ref17",
+  "title": "Learning temporal regularity in video sequences",
+  "authors": "M. Hasan, J. Choi, J. Neumann, A. K. Roy-Chowdhury, L. S. Davis",
+  "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 733-742",
+  "url": "#"
+ },
+ {
+  "id": 18,
+  "key": "ref18",
+  "title": "Future frame prediction for anomaly detection-a new baseline",
+  "authors": "W. Liu, W. Luo, D. Lian, S. Gao",
+  "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 6536-6545",
+  "url": "#"
+ },
+ {
+  "id": 19,
+  "key": "ref19",
+  "title": "Real-world anomaly detection in surveillance videos",
+  "authors": "W. Sultani, C. Chen, M. Shah",
+  "venue": "Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 6479-6488",
+  "url": "#"
+ },
+ {
+  "id": 20,
+  "key": "ref20",
+  "title": "Abnormal event detection at 150 fps in matlab",
+  "authors": "C. Lu, J. Shi, J. Jia",
+  "venue": "Proceedings of the IEEE international conference on computer vision, 2013, pp. 2720-2727",
+  "url": "#"
+ },
+ {
+  "id": 21,
+  "key": "ref21",
+  "title": "Learning transferable visual models from natural language supervision",
+  "authors": "A. Radford, J. W. Kim, C. Hallacy, A. Ramesh, G. Goh, S. Agarwal, G. Sastry, A. Askell, P. Mishkin, J. Clark et al.",
+  "venue": "International conference on machine learning. PmLR, 2021, pp. 8748-8763",
+  "url": "#"
+ },
+ {
+  "id": 22,
+  "key": "ref22",
+  "title": "Blip-2: Bootstrapping language-image pre-training with frozen image encoders and large language models",
+  "authors": "J. Li, D. Li, S. Savarese, S. Hoi",
+  "venue": "International conference on machine learning. PMLR, 2023, pp. 19730-19742",
+  "url": "#"
+ },
+ {
+  "id": 23,
+  "key": "ref23",
+  "title": "Flamingo: a visual language model for few-shot learning",
+  "authors": "J.-B. Alayrac, J. Donahue, P. Luc, A. Miech, I. Barr, Y. Hasson, K. Lenc, A. Mensch, K. Millican, M. Reynolds et al.",
+  "venue": "Advances in neural information processing systems, vol. 35, pp. 23716-23736, 2022",
+  "url": "#"
+ },
+ {
+  "id": 24,
+  "key": "ref24",
+  "title": "Visual instruction tuning",
+  "authors": "H. Liu, C. Li, Q. Wu, Y. J. Lee",
+  "venue": "Advances in neural information processing systems, vol. 36, pp. 34892-34916, 2023",
+  "url": "#"
+ },
+ {
+  "id": 25,
+  "key": "ref25",
+  "title": "Video-llava: Learning united visual representation by alignment before projection",
+  "authors": "B. Lin, Y. Ye, B. Zhu, J. Cui, M. Ning, P. Jin, L. Yuan",
+  "venue": "Proceedings of the 2024 conference on empirical methods in natural language processing, 2024, pp. 5971-5984",
+  "url": "#"
+ },
+ {
+  "id": 26,
+  "key": "ref26",
+  "title": "Video-chatgpt: Towards detailed video understanding via large vision and language models",
+  "authors": "M. Maaz, H. Rasheed, S. Khan, F. Khan",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024, pp. 12585-12602",
+  "url": "#"
+ },
+ {
+  "id": 27,
+  "key": "ref27",
+  "title": "A survey of single-scene video anomaly detection",
+  "authors": "B. Ramachandra, M. J. Jones, R. R. Vatsavai",
+  "venue": "IEEE transactions on pattern analysis and machine intelligence, vol. 44, no. 5, pp. 2293-2312, 2020",
+  "url": "#"
+ },
+ {
+  "id": 28,
+  "key": "ref28",
+  "title": "A comprehensive review on deep learning-based methods for video anomaly detection",
+  "authors": "R. Nayak, U. C. Pati, S. K. Das",
+  "venue": "Image and Vision Computing, vol. 106, p. 104078, 2021",
+  "url": "#"
+ },
+ {
+  "id": 29,
+  "key": "ref29",
+  "title": "Anomaly analysis in images and videos: A comprehensive review",
+  "authors": "T. M. Tran, T. N. Vu, N. D. Vo, T. V. Nguyen, K. Nguyen",
+  "venue": "ACM Computing Surveys, vol. 55, no. 7, pp. 1-37, 2022",
+  "url": "#"
+ },
+ {
+  "id": 30,
+  "key": "ref30",
+  "title": "Generalized video anomaly event detection: Systematic taxonomy and comparison of deep models",
+  "authors": "Y. Liu, D. Yang, Y. Wang, J. Liu, J. Liu, A. Boukerche, P. Sun, L. Song",
+  "venue": "ACM Computing Surveys, vol. 56, no. 7, pp. 1-38, 2024",
+  "url": "#"
+ },
+ {
+  "id": 31,
+  "key": "ref31",
+  "title": "Deep learning for video anomaly detection: A review",
+  "authors": "P. Wu, C. Pan, Y. Yan, G. Pang, Q. Yan, P. Wang, Y. Zhang",
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems, 2026",
+  "url": "#"
+ },
+ {
+  "id": 32,
+  "key": "ref32",
+  "title": "Video anomaly detection in 10 years: A survey and outlook",
+  "authors": "M. Abdalla, S. Javed, M. Al Radi, A. Ulhaq, N. Werghi",
+  "venue": "Neural Computing and Applications, vol. 37, no. 32, pp. 26321-26364, 2025",
+  "url": "#"
+ },
+ {
+  "id": 33,
+  "key": "ref33",
+  "title": "Quo vadis, anomaly detection? llms and vlms in the spotlight",
+  "authors": "X. Ding, L. Wang",
+  "venue": "arXiv preprint arXiv:2412.18298, 2024",
+  "url": "#"
+ },
+ {
+  "id": 34,
+  "key": "ref34",
+  "title": "Networking systems for video anomaly detection: A tutorial and survey",
+  "authors": "J. Liu, Y. Liu, J. Lin, J. Li, L. Cao, P. Sun, B. Hu, L. Song, A. Boukerche, V. C. Leung",
+  "venue": "ACM Computing Surveys, vol. 57, no. 10, pp. 1-37, 2025",
+  "url": "#"
+ },
+ {
+  "id": 35,
+  "key": "ref35",
+  "title": "The evolution of video anomaly detection: A unified framework from dnn to mllm",
+  "authors": "S. Gao, P. Yang, H. Guo, Y. Liu, Y. Chen, S. Li, H. Zhu, J. Xu, X.-Y. Zhang, L. Huang",
+  "venue": "arXiv preprint arXiv:2507.21649, 2025",
+  "url": "#"
+ },
+ {
+  "id": 36,
+  "key": "ref36",
+  "title": "Agentic ai-empowered dynamic survey framework",
+  "authors": "F. Mumcu, L. Bekit, M. J. Jones, A. Cherian, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2602.04071, 2026",
+  "url": "#"
+ },
+ {
+  "id": 37,
+  "key": "ref37",
+  "title": "Estimating the support of a high-dimensional distribution",
+  "authors": "B. Scholkopf, J. C. Platt, J. Shawe-Taylor, A. J. Smola, R. C. Williamson",
+  "venue": "Neural Computation, vol. 13, no. 7, pp. 1443-1471, 2001",
+  "url": "#"
+ },
+ {
+  "id": 38,
+  "key": "ref38",
+  "title": "Support vector data description",
+  "authors": "D. M. J. Tax, R. P. W. Duin",
+  "venue": "Machine Learning, vol. 54, no. 1, pp. 45-66, 2004",
+  "url": "#"
+ },
+ {
+  "id": 39,
+  "key": "ref39",
+  "title": "Deep one-class classification",
+  "authors": "L. Ruff, R. Vandermeulen, N. Goernitz, L. Deecke, S. A. Siddiqui, A. Binder, E. Muller, M. Kloft",
+  "venue": "International Conference on Machine Learning, 2018, pp. 4393-4402",
+  "url": "#"
+ },
+ {
+  "id": 40,
+  "key": "ref40",
+  "title": "Solving the multiple instance problem with axis-parallel rectangles",
+  "authors": "T. G. Dietterich, R. H. Lathrop, T. Lozano-Perez",
+  "venue": "Artificial Intelligence, vol. 89, no. 1-2, pp. 31-71, 1997",
+  "url": "#"
+ },
+ {
+  "id": 41,
+  "key": "ref41",
+  "title": "Support vector machines for multiple-instance learning",
+  "authors": "S. Andrews, I. Tsochantaridis, T. Hofmann",
+  "venue": "Advances in Neural Information Processing Systems, vol. 15, 2002",
+  "url": "#"
+ },
+ {
+  "id": 42,
+  "key": "ref42",
+  "title": "Toward open set recognition",
+  "authors": "W. J. Scheirer, A. de Rezende Rocha, A. Sapkota, T. E. Boult",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 35, no. 7, pp. 1757-1772, 2013",
+  "url": "#"
+ },
+ {
+  "id": 43,
+  "key": "ref43",
+  "title": "Recent advances in open set recognition: A survey",
+  "authors": "C. Geng, S.-j. Huang, S. Chen",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 43, no. 10, pp. 3614-3631, 2020",
+  "url": "#"
+ },
+ {
+  "id": 44,
+  "key": "ref44",
+  "title": "Lora: Low-rank adaptation of large language models",
+  "authors": "E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, W. Chen",
+  "venue": "arXiv preprint arXiv:2106.09685, 2021",
+  "url": "#"
+ },
+ {
+  "id": 45,
+  "key": "ref45",
+  "title": "Holmes-vau: Towards long-term video anomaly understanding at any granularity",
+  "authors": "H. Zhang, X. Xu, X. Wang, J. Zuo, X. Huang, C. Gao, S. Zhang, L. Yu, N. Sang",
+  "venue": "Proceedings of the computer vision and pattern recognition conference, 2025, pp. 13843-13853",
+  "url": "#"
+ },
+ {
+  "id": 46,
+  "key": "ref46",
+  "title": "Rethinking video anomaly detection: A continual learning approach",
+  "authors": "K. Doshi, Y. Yilmaz",
+  "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2022",
+  "url": "#"
+ },
+ {
+  "id": 47,
+  "key": "ref47",
+  "title": "Anomaly detection and localization in crowded scenes",
+  "authors": "W. Li, V. Mahadevan, N. Vasconcelos",
+  "venue": "IEEE transactions on pattern analysis and machine intelligence, vol. 36, no. 1, pp. 18-32, 2013",
+  "url": "#"
+ },
+ {
+  "id": 48,
+  "key": "ref48",
+  "title": "A revisit of sparse coding based anomaly detection in stacked rnn framework",
+  "authors": "W. Luo, W. Liu, S. Gao",
+  "venue": "Proceedings of the IEEE international conference on computer vision, 2017, pp. 341-349",
+  "url": "#"
+ },
+ {
+  "id": 49,
+  "key": "ref49",
+  "title": "A new comprehensive benchmark for semi-supervised video anomaly detection and anticipation",
+  "authors": "C. Cao, Y. Lu, P. Wang, Y. Zhang",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2023, pp. 20392-20401",
+  "url": "#"
+ },
+ {
+  "id": 50,
+  "key": "ref50",
+  "title": "Street scene: A new dataset and evaluation protocol for video anomaly detection",
+  "authors": "B. Ramachandra, M. Jones",
+  "venue": "Proceedings of the IEEE/CVF winter conference on applications of computer vision, 2020, pp. 2569-2578",
+  "url": "#"
+ },
+ {
+  "id": 51,
+  "key": "ref51",
+  "title": "Complexvad: Detecting interaction anomalies in video",
+  "authors": "F. Mumcu, M. Jones, Y. Yilmaz, A. Cherian",
+  "venue": "Proceedings of the Winter Conference on Applications of Computer Vision, 2025, pp. 1093-1102",
+  "url": "#"
+ },
+ {
+  "id": 52,
+  "key": "ref52",
+  "title": "Adnet: Temporal anomaly detection in surveillance videos",
+  "authors": "H. I. Ozturk, A. B. Can",
+  "venue": "International Conference on Pattern Recognition. Springer, 2021, pp. 88-101",
+  "url": "#"
+ },
+ {
+  "id": 53,
+  "key": "ref53",
+  "title": "Not only look, but also listen: Learning multimodal violence detection under weak supervision",
+  "authors": "P. Wu, J. Liu, Y. Shi, Y. Sun, F. Shao, Z. Wu, Z. Yang",
+  "venue": "European conference on computer vision. Springer, 2020, pp. 322-339",
+  "url": "#"
+ },
+ {
+  "id": 54,
+  "key": "ref54",
+  "title": "Tad: A large-scale benchmark for traffic accidents detection from video surveillance",
+  "authors": "Y. Xu, H. Hu, C. Huang, Y. Nan, Y. Liu, K. Wang, Z. Liu, S. Lian",
+  "venue": "IEEE Access, vol. 13, pp. 2018-2033, 2024",
+  "url": "#"
+ },
+ {
+  "id": 55,
+  "key": "ref55",
+  "title": "People detection and pose classification inside a moving train using computer vision",
+  "authors": "S. A. Velastin, D. A. Gomez-Lira",
+  "venue": "International visual informatics conference. Springer, 2017, pp. 319-330",
+  "url": "#"
+ },
+ {
+  "id": 56,
+  "key": "ref56",
+  "title": "Camnuvem: A robbery dataset for video anomaly detection",
+  "authors": "D. D. de Paula, D. H. Salvadeo, D. M. de Araujo",
+  "venue": "Sensors, vol. 22, no. 24, p. 10016, 2022",
+  "url": "#"
+ },
+ {
+  "id": 57,
+  "key": "ref57",
+  "title": "Ubnormal: New benchmark for supervised open-set video anomaly detection",
+  "authors": "A. Acsintoae, A. Florescu, M.-I. Georgescu, T. Mare, P. Sumedrea, R. T. Ionescu, F. S. Khan, M. Shah",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2022, pp. 20143-20153",
+  "url": "#"
+ },
+ {
+  "id": 58,
+  "key": "ref58",
+  "title": "Advancing video anomaly detection: A concise review and a new dataset",
+  "authors": "L. Zhu, L. Wang, A. Raj, T. Gedeon, C. Chen",
+  "venue": "Advances in Neural Information Processing Systems, vol. 37, pp. 89943-89977, 2024",
+  "url": "#"
+ },
+ {
+  "id": 59,
+  "key": "ref59",
+  "title": "Uncovering what why and how: A comprehensive benchmark for causation understanding of video anomaly",
+  "authors": "H. Du, S. Zhang, B. Xie, G. Nan, J. Zhang, J. Xu, H. Liu, S. Leng, J. Liu, H. Fan et al.",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18793-18803",
+  "url": "#"
+ },
+ {
+  "id": 60,
+  "key": "ref60",
+  "title": "Exploring what why and how: A multifaceted benchmark for causation understanding of video anomaly",
+  "authors": "H. Du, G. Nan, J. Qian, W. Wu, W. Deng, H. Mu, Z. Chen, P. Mao, X. Tao, J. Liu",
+  "venue": "arXiv preprint arXiv:2412.07183, 2024",
+  "url": "#"
+ },
+ {
+  "id": 61,
+  "key": "ref61",
+  "title": "Vane-bench: Video anomaly evaluation benchmark for conversational lmms",
+  "authors": "H. Gani, R. Bharadwaj, M. Naseer, F. S. Khan, S. Khan",
+  "venue": "Findings of the Association for Computational Linguistics: NAACL 2025, 2025, pp. 3123-3140",
+  "url": "#"
+ },
+ {
+  "id": 62,
+  "key": "ref62",
+  "title": "Vagu & gts: Llm-based benchmark and framework for joint video anomaly grounding and understanding",
+  "authors": "S. Gao, P. Yang, Y. Liu, Y. Chen, H. Zhu, X.-Y. Zhang, L. Huang",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 6, 2026, pp. 4167-4175",
+  "url": "#"
+ },
+ {
+  "id": 63,
+  "key": "ref63",
+  "title": "Finevau: A novel human-aligned benchmark for fine-grained video anomaly understanding",
+  "authors": "J. A. C. Pereira, V. Lopes, J. C. Neves, D. Semedo",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 10, 2026, pp. 8403-8411",
+  "url": "#"
+ },
+ {
+  "id": 64,
+  "key": "ref64",
+  "title": "Towards surveillance video-and-language understanding: New dataset baselines and challenges",
+  "authors": "T. Yuan, X. Zhang, K. Liu, B. Liu, C. Chen, J. Jin, Z. Jiao",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2024, pp. 22052-22061",
+  "url": "#"
+ },
+ {
+  "id": 65,
+  "key": "ref65",
+  "title": "Towards scalable video anomaly retrieval: A synthetic video-text benchmark",
+  "authors": "S. Yang, Y. Wang, Y. Wang, L. Zhu, Z. Zheng",
+  "venue": "arXiv preprint arXiv:2506.01466, 2025",
+  "url": "#"
+ },
+ {
+  "id": 66,
+  "key": "ref66",
+  "title": "Anomaly-led prompting learning caption generating model and benchmark",
+  "authors": "Q. Bao, F. Liu, L. Jiao, Y. Liu, S. Li, L. Li, X. Liu, X. Wang, B. Chen",
+  "venue": "IEEE Transactions on Multimedia, 2025",
+  "url": "#"
+ },
+ {
+  "id": 67,
+  "key": "ref67",
+  "title": "Sense-vad: Sentient and semantic video anomaly detection for autonomous driving",
+  "authors": "N. T. Nguyen, L. Bekit, Y. Yilmaz",
+  "venue": "2026. [Online]. Available: https://arxiv.org/abs/2606.31875",
+  "url": "#"
+ },
+ {
+  "id": 68,
+  "key": "ref68",
+  "title": "An introduction to roc analysis",
+  "authors": "T. Fawcett",
+  "venue": "Pattern Recognition Letters, vol. 27, no. 8, pp. 861-874, 2006",
+  "url": "#"
+ },
+ {
+  "id": 69,
+  "key": "ref69",
+  "title": "The relationship between precision-recall and roc curves",
+  "authors": "J. Davis, M. Goadrich",
+  "venue": "Proceedings of the International Conference on Machine Learning, 2006, pp. 233-240",
+  "url": "#"
+ },
+ {
+  "id": 70,
+  "key": "ref70",
+  "title": "The pascal visual object classes (voc) challenge",
+  "authors": "M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, A. Zisserman",
+  "venue": "International Journal of Computer Vision, vol. 88, no. 2, pp. 303-338, 2010",
+  "url": "#"
+ },
+ {
+  "id": 71,
+  "key": "ref71",
+  "title": "Bleu: a method for automatic evaluation of machine translation",
+  "authors": "K. Papineni, S. Roukos, T. Ward, W.-J. Zhu",
+  "venue": "Proceedings of the Annual Meeting of the Association for Computational Linguistics, 2002, pp. 311-318",
+  "url": "#"
+ },
+ {
+  "id": 72,
+  "key": "ref72",
+  "title": "Rouge: A package for automatic evaluation of summaries",
+  "authors": "C.-Y. Lin",
+  "venue": "Text Summarization Branches Out, 2004, pp. 74-81",
+  "url": "#"
+ },
+ {
+  "id": 73,
+  "key": "ref73",
+  "title": "Meteor: An automatic metric for mt evaluation with improved correlation with human judgments",
+  "authors": "S. Banerjee, A. Lavie",
+  "venue": "Proceedings of the ACL Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization, 2005, pp. 65-72",
+  "url": "#"
+ },
+ {
+  "id": 74,
+  "key": "ref74",
+  "title": "The use of rating and likert scales in natural language generation human evaluation tasks: A review and some recommendations",
+  "authors": "J. Amidei, P. Piwek, A. Willis",
+  "venue": "Proceedings of the 12th International Conference on Natural Language Generation. Association for Computational Linguistics, 2019, pp. 397-402",
+  "url": "#"
+ },
+ {
+  "id": 75,
+  "key": "ref75",
+  "title": "Best practices for the human evaluation of automatically generated text",
+  "authors": "C. van der Lee, A. Gatt, E. van Miltenburg, S. Wubben, E. Krahmer",
+  "venue": "Proceedings of the 12th International Conference on Natural Language Generation. Association for Computational Linguistics, 2019",
+  "url": "#"
+ },
+ {
+  "id": 76,
+  "key": "ref76",
+  "title": "Considers-the-human evaluation framework: Rethinking human evaluation for generative large language models",
+  "authors": "A. Elangovan, L. Liu, L. Xu, S. B. Bodapati, D. Roth",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics. Association for Computational Linguistics, 2024",
+  "url": "#"
+ },
+ {
+  "id": 77,
+  "key": "ref77",
+  "title": "Finevau: A novel human-aligned benchmark for fine-grained video anomaly understanding",
+  "authors": "J. A. C. Pereira, V. Lopes, J. C. Neves, D. Semedo",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 10, 2026, pp. 8403-8411",
+  "url": "#"
+ },
+ {
+  "id": 78,
+  "key": "ref78",
+  "title": "Counting on consensus: Selecting the right inter-annotator agreement metric for nlp annotation and evaluation",
+  "authors": "J. H. F. James",
+  "venue": "Proceedings of the Fifteenth Language Resources and Evaluation Conference, 2026, pp. 4434-4446",
+  "url": "#"
+ },
+ {
+  "id": 79,
+  "key": "ref79",
+  "title": "Leveraging multimodal llm descriptions of activity for explainable semi-supervised video anomaly detection",
+  "authors": "F. Mumcu, M. J. Jones, A. Cherian, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2510.14896, 2025",
+  "url": "#"
+ },
+ {
+  "id": 80,
+  "key": "ref80",
+  "title": "Memorizing normality to detect anomaly: Memory-augmented deep autoencoder for unsupervised anomaly detection",
+  "authors": "D. Gong, L. Liu, V. Le, B. Saha, M. R. Mansour, S. Venkatesh, A. v. d. Hengel",
+  "venue": "Proceedings of the IEEE/CVF international conference on computer vision, 2019, pp. 1705-1714",
+  "url": "#"
+ },
+ {
+  "id": 81,
+  "key": "ref81",
+  "title": "Hycovad: A hybrid ssl-llm model for complex video anomaly detection",
+  "authors": "M. M. Hemmatyar, M. Jafari, M. A. Yousefi, M. R. Nemati, M. Azadani, H. R. Rastad, A. Akbari",
+  "venue": "arXiv preprint arXiv:2509.22544, 2025",
+  "url": "#"
+ },
+ {
+  "id": 82,
+  "key": "ref82",
+  "title": "Slowfastvad: Video anomaly detection via integrating simple detector and rag-enhanced vision-language model",
+  "authors": "Z. Ding, H. Zhang, P. Wu, G. Pang, Z. Yang, P. Wang, Y. Zhang",
+  "venue": "arXiv preprint arXiv:2504.10320, 2025",
+  "url": "#"
+ },
+ {
+  "id": 83,
+  "key": "ref83",
+  "title": "Memoryout: Learning principal features via multimodal sparse filtering network for semi-supervised video anomaly detection",
+  "authors": "J. Li, L. Dang, Y. Su, Y. Hao, Q. Xiao, Y. Nie, Q. Wu",
+  "venue": "arXiv e-prints, pp. arXiv-2506, 2025",
+  "url": "#"
+ },
+ {
+  "id": 84,
+  "key": "ref84",
+  "title": "Vlavad: Vision-language models assisted unsupervised video anomaly detection",
+  "authors": "C. Li, Y. Jiang",
+  "venue": "in BMVC, 2024",
+  "url": "#"
+ },
+ {
+  "id": 85,
+  "key": "ref85",
+  "title": "Follow the rules: reasoning for video anomaly detection with large language models",
+  "authors": "Y. Yang, K. Lee, B. Dariush, Y. Cao, S.-Y. Lo",
+  "venue": "European Conference on Computer Vision. Springer, 2024, pp. 304-322",
+  "url": "#"
+ },
+ {
+  "id": 86,
+  "key": "ref86",
+  "title": "A hybrid video anomaly detection framework via memory-augmented flow reconstruction and flow-guided frame prediction",
+  "authors": "Z. Liu, Y. Nie, C. Long, Q. Zhang, G. Li",
+  "venue": "Proceedings of the IEEE/CVF international conference on computer vision, 2021, pp. 13588-13597",
+  "url": "#"
+ },
+ {
+  "id": 87,
+  "key": "ref87",
+  "title": "Unsupervised video anomaly detection based on similarity with predefined text descriptions",
+  "authors": "J. Kim, S. Yoon, T. Choi, S. Sull",
+  "venue": "Sensors, vol. 23, no. 14, p. 6256, 2023",
+  "url": "#"
+ },
+ {
+  "id": 88,
+  "key": "ref88",
+  "title": "Vadclip: Adapting vision-language models for weakly supervised video anomaly detection",
+  "authors": "P. Wu, X. Zhou, G. Pang, L. Zhou, Q. Yan, P. Wang, Y. Zhang",
+  "venue": "Proceedings of the AAAI conference on artificial intelligence, vol. 38, no. 6, 2024, pp. 6074-6082",
+  "url": "#"
+ },
+ {
+  "id": 89,
+  "key": "ref89",
+  "title": "Self-training multi-sequence learning with transformer for weakly supervised video anomaly detection",
+  "authors": "S. Li, F. Liu, L. Jiao",
+  "venue": "Proceedings of the AAAI conference on artificial intelligence, vol. 36, no. 2, 2022, pp. 1395-1403",
+  "url": "#"
+ },
+ {
+  "id": 90,
+  "key": "ref90",
+  "title": "MIST: multiple instance self-training framework for video anomaly detection",
+  "authors": "J. Feng, F. Hong, W. Zheng",
+  "venue": "CoRR, vol. abs/2104.01633, 2021. [Online]. Available: https://arxiv.org/abs/2104.01633",
+  "url": "#"
+ },
+ {
+  "id": 91,
+  "key": "ref91",
+  "title": "Graph convolutional label noise cleaner: Train a plug-and-play action classifier for anomaly detection",
+  "authors": "J.-X. Zhong, N. Li, W. Kong, S. Liu, T. H. Li, G. Li",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2019, pp. 1237-1246",
+  "url": "#"
+ },
+ {
+  "id": 92,
+  "key": "ref92",
+  "title": "Distilling aggregated knowledge for weakly-supervised video anomaly detection",
+  "authors": "J. Dalvi, A. Dabouei, G. Dhanuka, M. Xu",
+  "venue": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). IEEE, 2025, pp. 5439-5448",
+  "url": "#"
+ },
+ {
+  "id": 93,
+  "key": "ref93",
+  "title": "Learning event completeness for weakly supervised video anomaly detection",
+  "authors": "Y. Wang, S. Chen",
+  "venue": "arXiv preprint arXiv:2506.13095, 2025",
+  "url": "#"
+ },
+ {
+  "id": 94,
+  "key": "ref94",
+  "title": "Ex-vad: Explainable fine-grained video anomaly detection based on visual-language models",
+  "authors": "C. Huang, Y. Shi, J. Wen, W. Wang, Y. Xu, X. Cao",
+  "venue": "Forty-second International Conference on Machine Learning, 2025",
+  "url": "#"
+ },
+ {
+  "id": 95,
+  "key": "ref95",
+  "title": "Federated weakly supervised video anomaly detection with multimodal prompt",
+  "authors": "B. Wang, C. Huang, J. Wen, W. Wang, Y. Liu, Y. Xu",
+  "venue": "Proceedings of the AAAI conference on artificial intelligence, vol. 39, no. 20, 2025, pp. 21017-21025",
+  "url": "#"
+ },
+ {
+  "id": 96,
+  "key": "ref96",
+  "title": "Learning opposite prompts for weakly supervised video anomaly detection",
+  "authors": "H. Qiu, B. Hou, Y. Cui",
+  "venue": "Knowledge-Based Systems, vol. 324, p. 113600, 2025",
+  "url": "#"
+ },
+ {
+  "id": 97,
+  "key": "ref97",
+  "title": "Temporal context and representative feature learning for weakly supervised video anomaly detection",
+  "authors": "H. Qiu, B. Hou",
+  "venue": "Journal of Information and Intelligence, 2025",
+  "url": "#"
+ },
+ {
+  "id": 98,
+  "key": "ref98",
+  "title": "Filter, summarize, align: Learning the semantic guided weakly supervised video anomaly detection",
+  "authors": "H. Xu, H. Wang, M. Yue, Z. Li",
+  "venue": "International Conference on Intelligent Computing. Springer, 2025, pp. 76-87",
+  "url": "#"
+ },
+ {
+  "id": 99,
+  "key": "ref99",
+  "title": "Vadclip++: Dynamic vision-language model for weakly supervised video anomaly detection",
+  "authors": "L. Liu, J. Li, G. Li, Y. Zhai, M. Zhang",
+  "venue": "Digital Signal Processing, p. 105560, 2025",
+  "url": "#"
+ },
+ {
+  "id": 100,
+  "key": "ref100",
+  "title": "Relvid: Relational learning with vision-language models for weakly video anomaly detection",
+  "authors": "J. Wang, G. Li, J. Liu, Z. Xu, X. Chen, J. Wei",
+  "venue": "Sensors, vol. 25, no. 7, p. 2037, 2025",
+  "url": "#"
+ },
+ {
+  "id": 101,
+  "key": "ref101",
+  "title": "Avadclip: Audio-visual collaboration for robust video anomaly detection",
+  "authors": "P. Wu, W. Su, G. Pang, Y. Sun, Q. Yan, P. Wang, Y. Zhang",
+  "venue": "arXiv preprint arXiv:2504.04495, 2025",
+  "url": "#"
+ },
+ {
+  "id": 102,
+  "key": "ref102",
+  "title": "Multimodal vad: Visual anomaly detection in intelligent monitoring system via audio-vision-language",
+  "authors": "D. Wang, Q. Wang, Q. Hu, K. Wu",
+  "venue": "IEEE Transactions on Instrumentation and Measurement, 2025",
+  "url": "#"
+ },
+ {
+  "id": 103,
+  "key": "ref103",
+  "title": "Learning prompt-enhanced context features for weakly-supervised video anomaly detection",
+  "authors": "Y. Pu, X. Wu, L. Yang, S. Wang",
+  "venue": "IEEE Transactions on Image Processing, vol. 33, pp. 4923-4936, 2024",
+  "url": "#"
+ },
+ {
+  "id": 104,
+  "key": "ref104",
+  "title": "Clip-tsa: Clip-assisted temporal self-attention for weakly-supervised video anomaly detection",
+  "authors": "H. K. Joo, K. Vo, K. Yamazaki, N. Le",
+  "venue": "2023 IEEE International Conference on Image Processing (ICIP). IEEE, 2023, pp. 3230-3234",
+  "url": "#"
+ },
+ {
+  "id": 105,
+  "key": "ref105",
+  "title": "Reflip-vad: Towards weakly supervised video anomaly detection via vision-language model",
+  "authors": "P. P. Dev, R. Hazari, P. Das",
+  "venue": "IEEE Transactions on Circuits and Systems for Video Technology, 2024",
+  "url": "#"
+ },
+ {
+  "id": 106,
+  "key": "ref106",
+  "title": "Injecting explainability and lightweight design into weakly supervised video anomaly detection systems",
+  "authors": "W.-D. Jiang, C.-Y. Chang, H.-C. Chang, J.-Y. Chen, D. S. Roy",
+  "venue": "arXiv preprint arXiv:2412.20201, 2024",
+  "url": "#"
+ },
+ {
+  "id": 107,
+  "key": "ref107",
+  "title": "Weakly supervised video anomaly detection using dynamic-weighted feature fusion",
+  "authors": "H. Lim, D. Kim, M. Kim, C. Park, D. Kang, S. Lee",
+  "venue": "2024 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia). IEEE, 2024, pp. 1-4",
+  "url": "#"
+ },
+ {
+  "id": 108,
+  "key": "ref108",
+  "title": "Clip-driven multi-scale instance learning for weakly supervised video anomaly detection",
+  "authors": "Z. Qian, J. Tan, Z. Ou, H. Wang",
+  "venue": "2024 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2024, pp. 1-6",
+  "url": "#"
+ },
+ {
+  "id": 109,
+  "key": "ref109",
+  "title": "Weakly supervised video anomaly detection with large language models knowledge enhancement framework",
+  "authors": "S. Zhan, D. Zhang, J. Wang",
+  "venue": "2024 IEEE 36th International Conference on Tools with Artificial Intelligence (ICTAI), 2024, pp. 468-475",
+  "url": "#"
+ },
+ {
+  "id": 110,
+  "key": "ref110",
+  "title": "Tevad: Improved video anomaly detection with captions",
+  "authors": "W. Chen, K. T. Ma, Z. J. Yew, M. Hur, D. A.-A. Khoo",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2023, pp. 5549-5559",
+  "url": "#"
+ },
+ {
+  "id": 111,
+  "key": "ref111",
+  "title": "Weakly-supervised video anomaly detection with robust temporal feature magnitude learning",
+  "authors": "Y. Tian, G. Pang, Y. Chen, R. Singh, J. W. Verjans, G. Carneiro",
+  "venue": "Proceedings of the IEEE/CVF international conference on computer vision, 2021, pp. 4975-4986",
+  "url": "#"
+ },
+ {
+  "id": 112,
+  "key": "ref112",
+  "title": "Mgfn: Magnitude-contrastive glance-and-focus network for weakly-supervised video anomaly detection",
+  "authors": "Y. Chen, Z. Liu, B. Zhang, W. Fok, X. Qi, Y.-C. Wu",
+  "venue": "Proceedings of the AAAI conference on artificial intelligence, vol. 37, no. 1, 2023, pp. 387-395",
+  "url": "#"
+ },
+ {
+  "id": 113,
+  "key": "ref113",
+  "title": "Wsvad-clip: Temporally aware and prompt learning with clip for weakly supervised video anomaly detection",
+  "authors": "M. Li, J. Sang, Y. Lu, L. Du",
+  "venue": "Journal of Imaging, vol. 11, no. 10, p. 354, 2025",
+  "url": "#"
+ },
+ {
+  "id": 114,
+  "key": "ref114",
+  "title": "Delving into clip latent space for video anomaly recognition",
+  "authors": "L. Zanella, B. Liberatori, W. Menapace, F. Poiesi, Y. Wang, E. Ricci",
+  "venue": "Computer Vision and Image Understanding, vol. 249, p. 104163, 2024",
+  "url": "#"
+ },
+ {
+  "id": 115,
+  "key": "ref115",
+  "title": "Weakly supervised video anomaly detection and localization with spatio-temporal prompts",
+  "authors": "P. Wu, X. Zhou, G. Pang, Z. Yang, Q. Yan, P. Wang, Y. Zhang",
+  "venue": "Proceedings of the 32nd ACM International Conference on Multimedia, 2024, pp. 9301-9310",
+  "url": "#"
+ },
+ {
+  "id": 116,
+  "key": "ref116",
+  "title": "Prompt-enhanced multiple instance learning for weakly supervised video anomaly detection",
+  "authors": "J. Chen, L. Li, L. Su, Z.-j. Zha, Q. Huang",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2024, pp. 18319-18329",
+  "url": "#"
+ },
+ {
+  "id": 117,
+  "key": "ref117",
+  "title": "Learning suspected anomalies from event prompts for video anomaly detection",
+  "authors": "C. Tao, X. Peng, C. Wang, J. Wu, P. Zhao, J. Wang, J. Qian",
+  "venue": "ACM Transactions on Multimedia Computing, Communications and Applications, vol. 22, no. 5, pp. 1-20, 2026",
+  "url": "#"
+ },
+ {
+  "id": 118,
+  "key": "ref118",
+  "title": "Multilingual-prompt-guided directional feature learning for weakly supervised video anomaly detection",
+  "authors": "C. Xiao, Y. Xiao, J. T. Zhou, Z. Fang",
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2025",
+  "url": "#"
+ },
+ {
+  "id": 119,
+  "key": "ref119",
+  "title": "Injecting text clues for improving anomalous event detection from weakly labeled videos",
+  "authors": "T. Liu, K.-M. Lam, B.-K. Bao",
+  "venue": "IEEE Transactions on Image Processing, vol. 33, pp. 5907-5920, 2024",
+  "url": "#"
+ },
+ {
+  "id": 120,
+  "key": "ref120",
+  "title": "Callm: Cascading autoencoder and large language model for video anomaly detection",
+  "authors": "A. Ntelopoulos, K. Nasrollahi",
+  "venue": "2024 IEEE Thirteenth International Conference on Image Processing Theory, Tools and Applications (IPTA). IEEE, 2024, pp. 1-6",
+  "url": "#"
+ },
+ {
+  "id": 121,
+  "key": "ref121",
+  "title": "Aligning effective tokens with video anomaly in large language models",
+  "authors": "Y. Chen, J. Liu, R. Fan, Y. Li, C. Chang, S. Zhao, W. W. Fok, X. Qi, Y.-C. Wu",
+  "venue": "Proceedings of the IEEE/CVF International Conference on Computer Vision, 2025, pp. 22695-22706",
+  "url": "#"
+ },
+ {
+  "id": 122,
+  "key": "ref122",
+  "title": "M2vad: Multiview multimodality transformer-based weakly supervised video anomaly detection",
+  "authors": "S. Paulraj, S. Vairavasundaram",
+  "venue": "Image and Vision Computing, vol. 149, p. 105139, 2024",
+  "url": "#"
+ },
+ {
+  "id": 123,
+  "key": "ref123",
+  "title": "Cmhkf: Cross-modality heterogeneous knowledge fusion for weakly supervised video anomaly detection",
+  "authors": "G. Wang, S. Song, W. He, Y. Zheng",
+  "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025, pp. 31594-31607",
+  "url": "#"
+ },
+ {
+  "id": 124,
+  "key": "ref124",
+  "title": "Missiongnn: Hierarchical multimodal gnn-based weakly supervised video anomaly recognition with mission-specific knowledge graph generation",
+  "authors": "S. Yun, R. Masukawa, M. Na, M. Imani",
+  "venue": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV). IEEE, 2025, pp. 4736-4745",
+  "url": "#"
+ },
+ {
+  "id": 125,
+  "key": "ref125",
+  "title": "Toward video anomaly retrieval from video anomaly detection: New benchmarks and model",
+  "authors": "P. Wu, J. Liu, X. He, Y. Peng, P. Wang, Y. Zhang",
+  "venue": "IEEE Transactions on Image Processing, vol. 33, pp. 2213-2225, 2024",
+  "url": "#"
+ },
+ {
+  "id": 126,
+  "key": "ref126",
+  "title": "Harnessing large language models for training-free video anomaly detection",
+  "authors": "L. Zanella, W. Menapace, M. Mancini, Y. Wang, E. Ricci",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18527-18536",
+  "url": "#"
+ },
+ {
+  "id": 127,
+  "key": "ref127",
+  "title": "Open-vocabulary video anomaly detection",
+  "authors": "P. Wu, X. Zhou, G. Pang, Y. Sun, J. Liu, P. Wang, Y. Zhang",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024, pp. 18297-18307",
+  "url": "#"
+ },
+ {
+  "id": 128,
+  "key": "ref128",
+  "title": "Anomize: Better open vocabulary video anomaly detection",
+  "authors": "F. Li, W. Liu, J. Chen, R. Zhang, Y. Wang, X. Zhong, Z. Wang",
+  "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 29203-29212",
+  "url": "#"
+ },
+ {
+  "id": 129,
+  "key": "ref129",
+  "title": "Plovad: Prompting vision-language models for open vocabulary video anomaly detection",
+  "authors": "C. Xu, K. Xu, X. Jiang, T. Sun",
+  "venue": "IEEE Transactions on Circuits and Systems for Video Technology, vol. 35, no. 6, pp. 5925-5938, 2025",
+  "url": "#"
+ },
+ {
+  "id": 130,
+  "key": "ref130",
+  "title": "Holmes-vad: Towards unbiased and explainable video anomaly detection via multi-modal llm",
+  "authors": "H. Zhang, X. Xu, X. Wang, J. Zuo, C. Han, X. Huang, C. Gao, Y. Wang, N. Sang",
+  "venue": "arXiv preprint arXiv:2406.12235, 2024",
+  "url": "#"
+ },
+ {
+  "id": 131,
+  "key": "ref131",
+  "title": "Qvad: A question-centric agentic framework for efficient and training-free video anomaly detection",
+  "authors": "L. Bekit, H. Karim, N. T. Nguyen, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2604.03040, 2026",
+  "url": "#"
+ },
+ {
+  "id": 132,
+  "key": "ref132",
+  "title": "Flashback: Memory-driven zero-shot, real-time video anomaly detection",
+  "authors": "H. Lee, H. Kim, I.-J. Kim, Y. Choi",
+  "venue": "arXiv preprint arXiv:2505.15205, 2025",
+  "url": "#"
+ },
+ {
+  "id": 133,
+  "key": "ref133",
+  "title": "Training-free vlm-based pseudo label generation for video anomaly detection",
+  "authors": "M. Abdalla, S. Javed",
+  "venue": "IEEE Access, 2025",
+  "url": "#"
+ },
+ {
+  "id": 134,
+  "key": "ref134",
+  "title": "Monitor: Exploiting large language models with instruction for online video anomaly detection",
+  "authors": "Y. Feng, Y. Liu, J. Zhang, J. Qin et al.",
+  "venue": "Advances in Neural Information Processing Systems, vol. 38, pp. 35851-35871, 2026",
+  "url": "#"
+ },
+ {
+  "id": 135,
+  "key": "ref135",
+  "title": "Eventvad: Training-free event-aware video anomaly detection",
+  "authors": "Y. Shao, H. He, S. Li, S. Chen, X. Long, F. Zeng, Y. Fan, M. Zhang, Z. Yan, A. Ma et al.",
+  "venue": "Proceedings of the 33rd ACM International Conference on Multimedia, 2025, pp. 2586-2595",
+  "url": "#"
+ },
+ {
+  "id": 136,
+  "key": "ref136",
+  "title": "Panda: Towards generalist video anomaly detection via agentic ai engineer",
+  "authors": "Z. Yang, C. Gao, M. Z. Shou",
+  "venue": "Advances in Neural Information Processing Systems, vol. 38, pp. 83182-83211, 2026",
+  "url": "#"
+ },
+ {
+  "id": 137,
+  "key": "ref137",
+  "title": "Vadtree: Explainable training-free video anomaly detection via hierarchical granularity-aware tree",
+  "authors": "W. Li, Y. Xu, Y. Rao, Z. Wang, S. Deng",
+  "venue": "Advances in Neural Information Processing Systems, vol. 38, pp. 148372-148404, 2026",
+  "url": "#"
+ },
+ {
+  "id": 138,
+  "key": "ref138",
+  "title": "Vera: Explainable video anomaly detection via verbalized learning of vision-language models",
+  "authors": "M. Ye, W. Liu, P. He",
+  "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 8679-8688",
+  "url": "#"
+ },
+ {
+  "id": 139,
+  "key": "ref139",
+  "title": "Suvad: Semantic understanding based video anomaly detection using mllm",
+  "authors": "S. Gao, P. Yang, L. Huang",
+  "venue": "ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2025, pp. 1-5",
+  "url": "#"
+ },
+ {
+  "id": 140,
+  "key": "ref140",
+  "title": "Mcanet: Multimodal caption aware training-free video anomaly detection via large language model",
+  "authors": "P. P. Dev, R. Hazari, P. Das",
+  "venue": "International Conference on Pattern Recognition. Springer, 2024, pp. 362-379",
+  "url": "#"
+ },
+ {
+  "id": 141,
+  "key": "ref141",
+  "title": "Anyanomaly: Zero-shot customizable video anomaly detection with lvlm",
+  "authors": "S. Ahn, Y. Jo, K. Lee, S. Kwon, I. Hong, S. Park",
+  "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2026, pp. 3026-3035",
+  "url": "#"
+ },
+ {
+  "id": 142,
+  "key": "ref142",
+  "title": "Towards zero-shot anomaly detection and reasoning with multimodal large language models",
+  "authors": "J. Xu, S.-Y. Lo, B. Safaei, V. M. Patel, I. Dwivedi",
+  "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference, 2025, pp. 20370-20382",
+  "url": "#"
+ },
+ {
+  "id": 143,
+  "key": "ref143",
+  "title": "Personalizing vision-language models with hybrid prompts for zero-shot anomaly detection",
+  "authors": "Y. Cao, X. Xu, Y. Cheng, C. Sun, Z. Du, L. Gao, W. Shen",
+  "venue": "IEEE Transactions on Cybernetics, 2025",
+  "url": "#"
+ },
+ {
+  "id": 144,
+  "key": "ref144",
+  "title": "Clip: Assisted video anomaly detection",
+  "authors": "M. Dong",
+  "venue": "in ICPRAM, 2024, pp. 522-533",
+  "url": "#"
+ },
+ {
+  "id": 145,
+  "key": "ref145",
+  "title": "Towards generic anomaly detection and understanding: Large-scale visual-linguistic model (gpt-4v) takes the lead",
+  "authors": "Y. Cao, X. Xu, C. Sun, X. Huang, W. Shen",
+  "venue": "arXiv preprint arXiv:2311.02782, 2023",
+  "url": "#"
+ },
+ {
+  "id": 146,
+  "key": "ref146",
+  "title": "Visiongpt: Llm-assisted real-time anomaly detection for safe visual navigation",
+  "authors": "H. Wang, J. Qin, A. Bastola, X. Chen, J. Suchanek, Z. Gong, A. Razi",
+  "venue": "arXiv preprint arXiv:2403.12415, 2024",
+  "url": "#"
+ },
+ {
+  "id": 147,
+  "key": "ref147",
+  "title": "A vlm-based method for visual anomaly detection in robotic scientific laboratories",
+  "authors": "S. Lin, C. Wang, X. Ding, Y. Wang, B. Du, L. Song, C. Wang, H. Liu",
+  "venue": "2025 International Conference on Advanced Robotics and Mechatronics (ICARM). IEEE, 2025, pp. 34-39",
+  "url": "#"
+ },
+ {
+  "id": 148,
+  "key": "ref148",
+  "title": "Hawk: Learning to understand open-world video anomalies",
+  "authors": "J. Tang, H. Lu, R. Wu, X. Xu, K. Ma, C. Fang, B. Guo, J. Lu, Q. Chen, Y.-C. Chen",
+  "venue": "Advances in Neural Information Processing Systems, vol. 37, pp. 139751-139785, 2024",
+  "url": "#"
+ },
+ {
+  "id": 149,
+  "key": "ref149",
+  "title": "Assistpda: An online video surveillance assistant for video anomaly prediction, detection, and analysis",
+  "authors": "Z. Yang, C. Gao, J. Liu, P. Wu, G. Pang, M. Z. Shou",
+  "venue": "arXiv preprint arXiv:2503.21904, 2025",
+  "url": "#"
+ },
+ {
+  "id": 150,
+  "key": "ref150",
+  "title": "Vad-r1: Towards video anomaly reasoning via perception-to-cognition chain-of-thought",
+  "authors": "C. Huang, B. Wang, W. Wang, J. Wen, C. Liu, L. Shen, X. Cao",
+  "venue": "Advances in neural information processing systems, vol. 38, pp. 118486-118518, 2026",
+  "url": "#"
+ },
+ {
+  "id": 151,
+  "key": "ref151",
+  "title": "Vau-r1: Advancing video anomaly understanding via reinforcement fine-tuning",
+  "authors": "L. Zhu, Q. Chen, X. Shen, X. Cun",
+  "venue": "arXiv preprint arXiv:2505.23504, 2025",
+  "url": "#"
+ },
+ {
+  "id": 152,
+  "key": "ref152",
+  "title": "Sherlock: Towards multi-scene video abnormal event extraction and localization via a global-local spatial-sensitive llm",
+  "authors": "J. Ma, J. Wang, J. Luo, P. Yu, G. Zhou",
+  "venue": "Proceedings of the ACM on Web Conference 2025, 2025, pp. 4004-4013",
+  "url": "#"
+ },
+ {
+  "id": 153,
+  "key": "ref153",
+  "title": "Multimodal evidential learning for open-world weakly-supervised video anomaly detection",
+  "authors": "C. Huang, W. Huang, Q. Jiang, W. Wang, J. Wen, B. Zhang",
+  "venue": "IEEE Transactions on Multimedia, 2025",
+  "url": "#"
+ },
+ {
+  "id": 154,
+  "key": "ref154",
+  "title": "Language-guided open-world video anomaly detection under weak supervision",
+  "authors": "Z. Liu, X. Wu, J. Wu, X. Wang, L. Yang",
+  "venue": "arXiv preprint arXiv:2503.13160, 2025",
+  "url": "#"
+ },
+ {
+  "id": 155,
+  "key": "ref155",
+  "title": "Llm-guided agentic object detection for open-world understanding",
+  "authors": "F. Mumcu, M. J. Jones, A. Cherian, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2507.10844, 2025",
+  "url": "#"
+ },
+ {
+  "id": 156,
+  "key": "ref156",
+  "title": "Camel: Communicative agents for \"mind\" exploration of large language model society",
+  "authors": "G. Li, H. Hammoud, H. Itani, D. Khizbullin, B. Ghanem",
+  "venue": "Advances in Neural Information Processing Systems, vol. 36, pp. 51991-52008, 2023",
+  "url": "#"
+ },
+ {
+  "id": 157,
+  "key": "ref157",
+  "title": "Chatdev: Communicative agents for software development",
+  "authors": "C. Qian, W. Liu, H. Liu, N. Chen, Y. Dang, J. Li, C. Yang, W. Chen, Y. Su, X. Cong et al.",
+  "venue": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2024, pp. 15174-15186",
+  "url": "#"
+ },
+ {
+  "id": 158,
+  "key": "ref158",
+  "title": "Voyager: An open-ended embodied agent with large language models",
+  "authors": "G. Wang, Y. Xie, Y. Jiang, A. Mandlekar, C. Xiao, Y. Zhu, L. Fan, A. Anandkumar",
+  "venue": "arXiv preprint arXiv:2305.16291, 2023",
+  "url": "#"
+ },
+ {
+  "id": 159,
+  "key": "ref159",
+  "title": "Reflexion: Language agents with verbal reinforcement learning",
+  "authors": "N. Shinn, F. Cassano, A. Gopinath, K. Narasimhan, S. Yao",
+  "venue": "Advances in Neural Information Processing Systems, vol. 36, pp. 8634-8652, 2023",
+  "url": "#"
+ },
+ {
+  "id": 160,
+  "key": "ref160",
+  "title": "Small language models are the future of agentic ai",
+  "authors": "P. Belcak, G. Heinrich, S. Diao, Y. Fu, X. Dong, S. H. Muralidharan, P. Molchanov",
+  "venue": "arXiv preprint arXiv:2506.02153, 2025",
+  "url": "#"
+ },
+ {
+  "id": 161,
+  "key": "ref161",
+  "title": "Fast and lightweight vision-language model for adversarial traffic sign detection",
+  "authors": "F. Mumcu, Y. Yilmaz",
+  "venue": "Electronics, vol. 13, no. 11, p. 2172, 2024",
+  "url": "#"
+ },
+ {
+  "id": 162,
+  "key": "ref162",
+  "title": "Smolvlm: Redefining small and efficient multimodal models",
+  "authors": "A. Marafioti, O. Zohar, M. Farre, M. Noyan, E. Bakouch, P. Cuenca, C. Zakka, L. B. Allal, A. Lozhkov, N. Tazi et al.",
+  "venue": "arXiv preprint arXiv:2504.05299, 2025",
+  "url": "#"
+ },
+ {
+  "id": 163,
+  "key": "ref163",
+  "title": "How small language models are key to scalable agentic ai",
+  "authors": "Nvidia",
+  "venue": "2025. [Online]. Available: https://developer.nvidia.com/blog/how-small-language-models-are-key-to-scalable-agentic-ai/",
+  "url": "#"
+ },
+ {
+  "id": 164,
+  "key": "ref164",
+  "title": "Gemma 3 technical report",
+  "authors": "A. Kamath, J. Ferret, S. Pathak, N. Vieillard, R. Merhej, S. Perrin, T. Matejovicova, A. Rame, M. Riviere, L. Rouillard et al.",
+  "venue": "arXiv preprint arXiv:2503.19786, vol. 4, 2025",
+  "url": "#"
+ },
+ {
+  "id": 165,
+  "key": "ref165",
+  "title": "Gemma 3 technical report",
+  "authors": "G. Team, A. Kamath, J. Ferret, S. Pathak, N. Vieillard, R. Merhej, S. Perrin, T. Matejovicova, A. Rame, M. Riviere et al.",
+  "venue": "arXiv preprint arXiv:2503.19786",
+  "url": "#"
+ },
+ {
+  "id": 166,
+  "key": "ref166",
+  "title": "Qwen3 technical report",
+  "authors": "A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv et al.",
+  "venue": "arXiv preprint arXiv:2505.09388, 2025",
+  "url": "#"
+ },
+ {
+  "id": 167,
+  "key": "ref167",
+  "title": "Qwen3-omni technical report",
+  "authors": "J. Xu, Z. Guo, H. Hu, Y. Chu, X. Wang, J. He, Y. Wang, X. Shi, T. He, X. Zhu et al.",
+  "venue": "arXiv preprint arXiv:2509.17765, 2025",
+  "url": "#"
+ },
+ {
+  "id": 168,
+  "key": "ref168",
+  "title": "Qwen3.5-omni technical report",
+  "authors": "Q. Team",
+  "venue": "arXiv preprint arXiv:2604.15804, 2026",
+  "url": "#"
+ },
+ {
+  "id": 169,
+  "key": "ref169",
+  "title": "Is video anomaly detection misframed? evidence from llm-based and multi-scene models",
+  "authors": "F. Mumcu, M. J. Jones, A. Cherian, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2605.12725, 2026",
+  "url": "#"
+ },
+ {
+  "id": 170,
+  "key": "ref170",
+  "title": "Evaluating object hallucination in large vision-language models",
+  "authors": "Y. Li, Y. Du, K. Zhou, J. Wang, X. Zhao, J.-R. Wen",
+  "venue": "Proceedings of the 2023 conference on empirical methods in natural language processing, 2023, pp. 292-305",
+  "url": "#"
+ },
+ {
+  "id": 171,
+  "key": "ref171",
+  "title": "Hallusionbench: an advanced diagnostic suite for entangled language hallucination and visual illusion in large vision-language models",
+  "authors": "T. Guan, F. Liu, X. Wu, R. Xian, Z. Li, X. Liu, X. Wang, L. Chen, F. Huang, Y. Yacoob et al.",
+  "venue": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, 2024, pp. 14375-14385",
+  "url": "#"
+ },
+ {
+  "id": 172,
+  "key": "ref172",
+  "title": "The foundation model transparency index",
+  "authors": "R. Bommasani, K. Klyman, S. Longpre, S. Kapoor, N. Maslej, B. Xiong, D. Zhang, P. Liang",
+  "venue": "arXiv preprint arXiv:2310.12941, 2023",
+  "url": "#"
+ },
+ {
+  "id": 173,
+  "key": "ref173",
+  "title": "Investigating data contamination in modern benchmarks for large language models",
+  "authors": "C. Deng, Y. Zhao, X. Tang, M. Gerstein, A. Cohan",
+  "venue": "arXiv preprint arXiv:2311.09783, 2023",
+  "url": "#"
+ },
+ {
+  "id": 174,
+  "key": "ref174",
+  "title": "Leak, cheat, repeat: Data contamination and evaluation malpractices in closed-source llms",
+  "authors": "S. Balloccu, P. Schmidtova, M. Lango, O. Dusek",
+  "venue": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers), 2024, pp. 67-93",
+  "url": "#"
+ },
+ {
+  "id": 175,
+  "key": "ref175",
+  "title": "Socially-weighted alignment: A game-theoretic framework for multi-agent llm systems",
+  "authors": "F. Mumcu, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2602.14471, 2026",
+  "url": "#"
+ },
+ {
+  "id": 176,
+  "key": "ref176",
+  "title": "Agentic ai: a comprehensive survey of architectures, applications, and future directions",
+  "authors": "M. Abou Ali, F. Dornaika, J. Charafeddine",
+  "venue": "Artificial Intelligence Review, vol. 59, no. 1, p. 11, 2025",
+  "url": "#"
+ },
+ {
+  "id": 177,
+  "key": "ref177",
+  "title": "Robustness of agentic ai systems via adversarially-aligned jacobian regularization",
+  "authors": "F. Mumcu, Y. Yilmaz",
+  "venue": "arXiv preprint arXiv:2603.04378, 2026",
+  "url": "#"
+ },
+ {
+  "id": 178,
+  "key": "ref178",
+  "title": "Visual privacy protection methods: A survey",
+  "authors": "J. R. Padilla-Lopez, A. A. Chaaraoui, F. Florez-Revuelta",
+  "venue": "Expert Systems with Applications, vol. 42, no. 9, pp. 4177-4195, 2015",
+  "url": "#"
+ },
+ {
+  "id": 179,
+  "key": "ref179",
+  "title": "Data augmentation for fairness-aware machine learning: Preventing algorithmic bias in law enforcement systems",
+  "authors": "I. Pastaltzidis, N. Dimitriou, K. Quezada-Tavarez, S. Aidinlis, T. Marquenie, A. Gurzawska, D. Tzovaras",
+  "venue": "Proceedings of the 2022 ACM conference on fairness, accountability, and transparency, 2022, pp. 2302-2314",
+  "url": "#"
+ },
+ {
+  "id": 180,
+  "key": "ref180",
+  "title": "Adversarial machine learning attacks against video anomaly detection systems",
+  "authors": "F. Mumcu, K. Doshi, Y. Yilmaz",
+  "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 206-213",
+  "url": "#"
+ },
+ {
+  "id": 181,
+  "key": "ref181",
+  "title": "Frameshield: Adversarially robust video anomaly detection",
+  "authors": "M. Nafez, M. Poulaei, N. Vasei, M. Sabokrou, M. H. Rohban et al.",
+  "venue": "Advances in Neural Information Processing Systems, vol. 38, pp. 29859-29893, 2026",
+  "url": "#"
+ },
+ {
+  "id": 182,
+  "key": "ref182",
+  "title": "Introducing GPT-5.5",
+  "authors": "OpenAI",
+  "venue": "https://openai.com/index/introducing-gpt-5-5/, 2026, accessed: July 14, 2026",
+  "url": "#"
+ }
 ]

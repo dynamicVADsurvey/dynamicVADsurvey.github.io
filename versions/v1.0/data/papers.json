@@ -1,0 +1,2369 @@
+[
+ {
+  "slug": "futureframe",
+  "method": "FutureFrame",
+  "title": "FutureFrame — Prediction-Based Normality",
+  "authors": [
+   "See reference [18]"
+  ],
+  "venue": "CVPR",
+  "year": 2018,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "CNN"
+  ],
+  "training": "Semi-supervised (normal-only)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCSD Ped2",
+   "CUHK Avenue",
+   "ShanghaiTech"
+  ],
+  "summary": "Classical non-LM baseline. Detects anomalies via large future-frame prediction errors on events that cannot be forecast from normal training video.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Prediction-Based Normality",
+  "badges": [
+   "Non-LM baseline",
+   "Future-frame prediction"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-18",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "memae",
+  "method": "MemAE",
+  "title": "MemAE — Reconstruction-Based Normality",
+  "authors": [
+   "See reference [73]"
+  ],
+  "venue": "ICCV",
+  "year": 2019,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "Autoencoder"
+  ],
+  "training": "Semi-supervised (normal-only)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCSD Ped2",
+   "CUHK Avenue",
+   "ShanghaiTech"
+  ],
+  "summary": "Classical non-LM baseline. Constrains reconstruction with a memory module of prototypical normal patterns to avoid reconstructing anomalies too well.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Reconstruction-Based Normality",
+  "badges": [
+   "Non-LM baseline",
+   "Memory-augmented"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-73",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "hycovad",
+  "method": "HyCoVAD",
+  "title": "HyCoVAD — Detect-then-Validate",
+  "authors": [
+   "See reference [74]"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "SSL",
+   "LLM"
+  ],
+  "training": "Semi-supervised",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "ComplexVAD"
+  ],
+  "summary": "Hybrid SSL-LLM model for complex interaction anomalies: a self-supervised detector selects suspicious frames, then a VLM/LLM validation stage uses refined captions and environment rules to decide whether the event is anomalous.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Detect-then-Validate",
+  "badges": [
+   "Hybrid SSL-LLM",
+   "Interaction anomalies",
+   "Rule validation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-74",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "mllm-evad",
+  "method": "MLLM-EVAD",
+  "title": "MLLM-EVAD — Semantic Normality Exemplars",
+  "authors": [
+   "See reference [72]"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Semi-supervised (normal-only)",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "CUHK Avenue",
+   "ComplexVAD"
+  ],
+  "summary": "Uses MLLM-generated descriptions of single-object activities and object-pair interactions as scene-specific normality exemplars; at inference, new descriptions are compared to compact nominal exemplar sets, yielding anomaly scores plus textual evidence.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Semantic Normality Exemplars",
+  "badges": [
+   "Object-centric",
+   "MLLM descriptions",
+   "Exemplar matching"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-72",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "slowfastvad",
+  "method": "SlowFastVAD",
+  "title": "SlowFastVAD — RAG-Enhanced Reasoning",
+  "authors": [
+   "Zongcan Ding",
+   "Haodong Zhang",
+   "Peng Wu",
+   "Guansong Pang",
+   "Zhiwei Yang",
+   "et al."
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "VLM",
+   "LLM"
+  ],
+  "training": "Semi-supervised",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCSD Ped2",
+   "CUHK Avenue",
+   "ShanghaiTech",
+   "UBnormal"
+  ],
+  "summary": "SlowFastVAD integrates a fast autoencoder-based anomaly detector with a slower RAG-enhanced vision-language model: entropy-based uncertainty selects ambiguous segments for VLM re-analysis using a knowledge base of normal and inferred abnormal patterns, then fuses both detectors' confidence scores.",
+  "taxonomy": "Unsupervised & Semi-Supervised / RAG-Enhanced Reasoning",
+  "badges": [
+   "RAG",
+   "Fast-slow pipeline",
+   "Interpretable"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-75",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "sfn-vad",
+  "method": "SFN-VAD",
+  "title": "SFN-VAD — Prediction + Semantic Consistency",
+  "authors": [
+   "See reference [76]"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Semi-supervised (normal-only)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCSD Ped2",
+   "CUHK Avenue",
+   "ShanghaiTech"
+  ],
+  "summary": "Fuses appearance, motion, and language-derived semantic cues in a tri-modal encoder; a multimodal decoder predicts next frame and semantic representation, and a Sparse Feature Filtering Module limits over-generalization to abnormal events.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Prediction + Semantic Consistency",
+  "badges": [
+   "Tri-modal",
+   "Sparse filtering",
+   "Prediction error"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-76",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vlavad",
+  "method": "VLAVAD",
+  "title": "VLAVAD — Semantic Normality Modeling",
+  "authors": [
+   "Changkang Li",
+   "Yalong Jiang"
+  ],
+  "venue": "BMVC",
+  "year": 2024,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Unsupervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "CUHK Avenue"
+  ],
+  "summary": "VLAVAD pairs a cross-modal pretrained model with a Selective-Prompt Adapter that selects relevant semantic space, and a Sequence State Space Module that detects temporal inconsistencies in mapped low-dimensional semantic features, enhancing interpretability of unsupervised anomaly detection.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Semantic Normality Modeling",
+  "badges": [
+   "VLM prompts",
+   "Selective Prompt Adapter",
+   "Sequence modeling"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-77",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "follow-the-rules",
+  "method": "Follow the Rules (AnomalyRuler)",
+  "title": "Follow the Rules (AnomalyRuler) — Rule Induction",
+  "authors": [
+   "Yuchen Yang",
+   "Kwonjoon Lee",
+   "Behzad Dariush",
+   "Yinzhi Cao",
+   "Shao-Yuan Lo"
+  ],
+  "venue": "ECCV",
+  "year": 2024,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "VLM",
+   "LLM"
+  ],
+  "training": "Semi-supervised (few normal frames)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCSD Ped2",
+   "CUHK Avenue",
+   "ShanghaiTech",
+   "UBnormal"
+  ],
+  "summary": "AnomalyRuler is a rule-based LLM framework for one-class VAD: an induction stage derives normality and anomaly rules from few-shot normal reference frames, and a deduction stage applies them to test frames, aided by rule aggregation, perception smoothing, and robust reasoning.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Rule Induction",
+  "badges": [
+   "Induction-deduction",
+   "Scene rules",
+   "Robust reasoning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-78",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "kim-clip-normality",
+  "method": "Kim et al. (CLIP normality)",
+  "title": "Kim et al. (CLIP normality) — Text-Conditional Similarity",
+  "authors": [
+   "See reference [80]"
+  ],
+  "venue": "Sensors",
+  "year": 2023,
+  "paradigm": "Unsupervised & Semi-Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Unsupervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "ShanghaiTech"
+  ],
+  "summary": "Compares frames or object crops against predefined natural-language descriptions of normal and abnormal situations generated with ChatGPT, learning a text-conditional similarity function without frame- or video-level labels.",
+  "taxonomy": "Unsupervised & Semi-Supervised / Text-Conditional Similarity",
+  "badges": [
+   "CLIP",
+   "ChatGPT descriptions",
+   "Text-conditional"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-80",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "deepmil",
+  "method": "DeepMIL",
+  "title": "DeepMIL — Multiple Instance Learning",
+  "authors": [
+   "See reference [19]"
+  ],
+  "venue": "CVPR",
+  "year": 2018,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CNN"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "Seminal non-LM baseline formulating weakly supervised VAD as multiple instance learning over bags of temporal instances.",
+  "taxonomy": "Weakly Supervised / Multiple Instance Learning",
+  "badges": [
+   "Non-LM baseline",
+   "Seminal MIL"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-19",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "msl",
+  "method": "MSL",
+  "title": "MSL — Self-Training",
+  "authors": [
+   "See reference [82]"
+  ],
+  "venue": "AAAI",
+  "year": 2022,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "Transformer"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "Non-LM baseline: transformer-based network using multi-sequence learning, where sequences of multiple snippets serve as the optimization unit instead of single snippets, with a self-training strategy that progressively shortens sequences to refine snippet-level anomaly scores.",
+  "taxonomy": "Weakly Supervised / Self-Training",
+  "badges": [
+   "Non-LM baseline",
+   "Multi-sequence learning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-82",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "mist",
+  "method": "MIST",
+  "title": "MIST — Self-Training",
+  "authors": [
+   "See reference [83]"
+  ],
+  "venue": "arXiv",
+  "year": 2021,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CNN"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "ShanghaiTech"
+  ],
+  "summary": "Non-LM baseline: multiple instance self-training framework combining a pseudo-label generator with sparse continuous sampling for reliable clip-level labels and a self-guided attention encoder that focuses on anomalous regions to extract task-specific representations.",
+  "taxonomy": "Weakly Supervised / Self-Training",
+  "badges": [
+   "Non-LM baseline",
+   "Multiple-instance self-training"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-83",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "gcn",
+  "method": "GCN",
+  "title": "GCN — Graph Reasoning",
+  "authors": [
+   "See reference [84]"
+  ],
+  "venue": "CVPR",
+  "year": 2019,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "GCN"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "ShanghaiTech"
+  ],
+  "summary": "Non-LM baseline: graph convolutional network that cleans noisy video-level labels by propagating supervision across snippets via a feature-similarity graph and a temporal-consistency graph, turning weakly supervised anomaly detection into a trainable action-classification task.",
+  "taxonomy": "Weakly Supervised / Graph Reasoning",
+  "badges": [
+   "Non-LM baseline",
+   "Label-noise cleaning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-84",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": false
+ },
+ {
+  "slug": "vadclip",
+  "method": "VadCLIP",
+  "title": "VadCLIP — Vision-Language Adaptation",
+  "authors": [
+   "Peng Wu",
+   "Xuerong Zhou",
+   "Guansong Pang",
+   "Lingru Zhou",
+   "Qingsen Yan",
+   "et al."
+  ],
+  "venue": "AAAI",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "VadCLIP adapts frozen CLIP to weakly supervised VAD via a dual-branch design: one branch performs coarse-grained binary classification from visual features, the other exploits fine-grained vision-language alignment, achieving state-of-the-art results on UCF-Crime and XD-Violence.",
+  "taxonomy": "Weakly Supervised / Vision-Language Adaptation",
+  "badges": [
+   "CLIP",
+   "Dual-branch",
+   "MIL-Align",
+   "Learnable prompts"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-81",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vadclip-plus",
+  "method": "VadCLIP++",
+  "title": "VadCLIP++ — Vision-Language Adaptation",
+  "authors": [
+   "See reference [92]"
+  ],
+  "venue": "Digital Signal Processing",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Extends VadCLIP with dual learnable text-prompt branches: a dynamic branch supervises inter-frame difference features to capture temporal changes in anomalous behavior, while a static branch optimizes in-frame localization, jointly improving weakly supervised detection.",
+  "taxonomy": "Weakly Supervised / Vision-Language Adaptation",
+  "badges": [
+   "CLIP",
+   "Dynamic VLM",
+   "Temporal modeling"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-92",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "clip-tsa",
+  "method": "CLIP-TSA",
+  "title": "CLIP-TSA — Vision-Language Adaptation",
+  "authors": [
+   "See reference [97]"
+  ],
+  "venue": "ICIP",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "Uses ViT-encoded CLIP visual features in place of C3D or I3D, then models temporal dependencies with a Temporal Self-Attention module to nominate snippets of interest for weakly supervised anomaly localization.",
+  "taxonomy": "Weakly Supervised / Vision-Language Adaptation",
+  "badges": [
+   "CLIP",
+   "Temporal self-attention"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-97",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "reflip-vad",
+  "method": "ReFLIP-VAD",
+  "title": "ReFLIP-VAD — Vision-Language Adaptation",
+  "authors": [
+   "See reference [98]"
+  ],
+  "venue": "IEEE TCSVT",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Generates reparameterized learnable prompts instead of hand-crafted templates for richer anomaly semantics, then combines a classification block with a video-text alignment block to detect anomalies at both coarse video-level and fine frame-level granularity.",
+  "taxonomy": "Weakly Supervised / Vision-Language Adaptation",
+  "badges": [
+   "VLM",
+   "Frame-label alignment"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-98",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "pemil",
+  "method": "PEMIL",
+  "title": "PEMIL — Prompt-Enhanced MIL",
+  "authors": [
+   "See reference [96]"
+  ],
+  "venue": "IEEE TIP",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "Combines a Temporal Context Aggregation module with a Prompt-Enhanced Learning module that builds knowledge-based prompts from external commonsense concepts to improve fine-grained discriminability among anomaly categories.",
+  "taxonomy": "Weakly Supervised / Prompt-Enhanced MIL",
+  "badges": [
+   "Prompt-enhanced",
+   "Temporal context",
+   "Commonsense prompts"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-96",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "tevad",
+  "method": "TEVAD",
+  "title": "TEVAD — Caption-Guided Semantics",
+  "authors": [
+   "Weiling Chen",
+   "Keng Teck Ma",
+   "Zi Jian Yew",
+   "Minhoe Hur",
+   "David Aik-Aun Khoo"
+  ],
+  "venue": "CVPR",
+  "year": 2023,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "Captioning"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "TEVAD (Text-Empowered VAD) generates dense captions for video snippets and fuses text and visual features for anomaly detection, improving accuracy and robustness on ShanghaiTech, UCF-Crime, XD-Violence, and UCSD-Pedestrians while using word-level caption contributions to explain predictions.",
+  "taxonomy": "Weakly Supervised / Caption-Guided Semantics",
+  "badges": [
+   "Dense captions",
+   "Sentence embeddings",
+   "Interpretability"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-103",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "ex-vad",
+  "method": "Ex-VAD",
+  "title": "Ex-VAD — LLM Knowledge Enhancement",
+  "authors": [
+   "Chao Huang",
+   "Yushu Shi",
+   "Jie Wen",
+   "Wei Wang",
+   "Yong Xu",
+   "Xiaochun Cao"
+  ],
+  "venue": "ICML",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM",
+   "LLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection",
+   "Explanation",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Ex-VAD combines fine-grained anomaly classification with explanations: a VLM extracts frame-level captions that an LLM converts into video-level explanations, and a Label Augment and Alignment Module expands anomaly category labels into descriptive phrases for more precise detection.",
+  "taxonomy": "Weakly Supervised / LLM Knowledge Enhancement",
+  "badges": [
+   "Frame captions",
+   "LLM explanations",
+   "Label augmentation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-87",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "dakd",
+  "method": "DAKD",
+  "title": "DAKD — Knowledge Distillation",
+  "authors": [
+   "See reference [85]"
+  ],
+  "venue": "WACV",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "Distills knowledge from aggregated representations of multiple backbones into a single-backbone student model via bi-level distillation and a disentangled cross-attention feature-aggregation network, improving over prior methods on UCF-Crime, ShanghaiTech, and XD-Violence.",
+  "taxonomy": "Weakly Supervised / Knowledge Distillation",
+  "badges": [
+   "Aggregated knowledge",
+   "Distillation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-85",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "lec-vad",
+  "method": "LEC-VAD",
+  "title": "LEC-VAD — Caption-Guided Semantics",
+  "authors": [
+   "See reference [86]"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Addresses incomplete event localization with a dual vision-language structure encoding category-aware and category-agnostic semantics; an anomaly-aware Gaussian mixture learns precise event boundaries while a memory-bank prototype mechanism enriches anomaly-category text descriptions.",
+  "taxonomy": "Weakly Supervised / Caption-Guided Semantics",
+  "badges": [
+   "Event completeness",
+   "Semantic guidance"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-86",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "lop-vad",
+  "method": "LOP-VAD",
+  "title": "LOP-VAD — Prompt-Enhanced MIL",
+  "authors": [
+   "See reference [89]"
+  ],
+  "venue": "Knowledge-Based Systems",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Introduces dual affirmative/negative (\"yes/no\") text prompts for bidirectional vision-language alignment, addressing overlap between normal and abnormal visual patterns, paired with a temporal context attention module that captures dependencies CLIP's static representations miss.",
+  "taxonomy": "Weakly Supervised / Prompt-Enhanced MIL",
+  "badges": [
+   "Opposite prompts",
+   "Prompt learning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-89",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "tcrfl",
+  "method": "TCRFL",
+  "title": "TCRFL — Caption-Guided Semantics",
+  "authors": [
+   "See reference [90]"
+  ],
+  "venue": "J. Information and Intelligence",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "Combines Mamba and Transformer layers in a temporal context learning module to capture short- and long-range event dependencies with linear complexity, alongside representative feature learning that reduces reliance on noisy top-scoring snippet selection.",
+  "taxonomy": "Weakly Supervised / Caption-Guided Semantics",
+  "badges": [
+   "Temporal context",
+   "Representative features"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-90",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "fsa-vad",
+  "method": "FSA-VAD",
+  "title": "FSA-VAD — Caption-Guided Semantics",
+  "authors": [
+   "See reference [91]"
+  ],
+  "venue": "ICIC",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "ShanghaiTech"
+  ],
+  "summary": "Filter, summarize, align: semantic-guided weakly supervised VAD.",
+  "taxonomy": "Weakly Supervised / Caption-Guided Semantics",
+  "badges": [
+   "Filter-summarize-align",
+   "Semantic guidance"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-91",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "relvid",
+  "method": "RelVid",
+  "title": "RelVid — Relation-Aware",
+  "authors": [
+   "See reference [93]"
+  ],
+  "venue": "Sensors",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Relational learning with vision-language models plus auxiliary anomaly-recognition and reconstruction objectives to improve class separation and temporal feature learning.",
+  "taxonomy": "Weakly Supervised / Relation-Aware",
+  "badges": [
+   "Relational learning",
+   "Auxiliary objectives"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-93",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "avadclip",
+  "method": "AVadCLIP",
+  "title": "AVadCLIP — Multimodal Fusion",
+  "authors": [
+   "Peng Wu",
+   "Wanshun Su",
+   "Guansong Pang",
+   "Yujia Sun",
+   "Qingsen Yan",
+   "et al."
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP",
+   "Audio"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "XD-Violence"
+  ],
+  "summary": "AVadCLIP is a weakly supervised audio-visual VAD framework built on frozen CLIP: an efficient audio-visual fusion module adapts cross-modal features, an audio-visual prompt enhances text embeddings, and uncertainty-driven distillation synthesizes audio-visual representations from visual-only input at inference.",
+  "taxonomy": "Weakly Supervised / Multimodal Fusion",
+  "badges": [
+   "Audio-visual fusion",
+   "Uncertainty distillation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-94",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "multimodal-vad",
+  "method": "Multimodal-VAD",
+  "title": "Multimodal-VAD — Multimodal Fusion",
+  "authors": [
+   "Dicong Wang",
+   "Qilong Wang",
+   "Qinghua Hu",
+   "Kaijun Wu"
+  ],
+  "venue": "IEEE TIM",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM",
+   "Audio"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Dual-stream multimodal VAD network combining video, audio, and text: a coarse-grained stream cross-modally fuses audio with temporally modeled visual features via contrastive optimization, while a fine-grained stream builds abnormal-aware context prompts to discriminate anomalies via a 'coarse-support-fine' strategy.",
+  "taxonomy": "Weakly Supervised / Multimodal Fusion",
+  "badges": [
+   "Audio-vision-language",
+   "Intelligent monitoring"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-95",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "federated-wvad",
+  "method": "Federated-WVAD",
+  "title": "Federated-WVAD — Prompt-Enhanced MIL",
+  "authors": [
+   "See reference [88]"
+  ],
+  "venue": "AAAI",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised (federated)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Federated weakly supervised VAD that replaces manual text prompts with a text-prompt generator conditioned on global anomaly-related context and personalized local visual context, letting clients train on private surveillance data without sharing raw video.",
+  "taxonomy": "Weakly Supervised / Prompt-Enhanced MIL",
+  "badges": [
+   "Federated learning",
+   "Multimodal prompt"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-88",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "ield-wvad",
+  "method": "IELD-WVAD",
+  "title": "IELD-WVAD — LLM Knowledge Enhancement",
+  "authors": [
+   "See reference [99]"
+  ],
+  "venue": "arXiv",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Proposes TCVADS, a two-stage cross-modal system for edge devices: a distilled convolutional network performs fast coarse-grained classification, then a CLIP-based fine-grained classifier with cross-modal contrastive learning is triggered only when an anomaly is flagged.",
+  "taxonomy": "Weakly Supervised / LLM Knowledge Enhancement",
+  "badges": [
+   "Explainability",
+   "Lightweight design"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-99",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "dwff-vad",
+  "method": "DWFF-VAD",
+  "title": "DWFF-VAD — Multimodal Fusion",
+  "authors": [
+   "See reference [100]"
+  ],
+  "venue": "ICCE-Asia",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Weakly supervised VAD using CLIP to align video and text representations, with dynamic weighting that emphasizes abnormal frames during training and a fusion of video-level and frame-level features to address the mix of normal and abnormal content within anomalous videos.",
+  "taxonomy": "Weakly Supervised / Multimodal Fusion",
+  "badges": [
+   "Dynamic-weighted fusion"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-100",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "cmsil",
+  "method": "CMSIL",
+  "title": "CMSIL — Vision-Language Adaptation",
+  "authors": [
+   "See reference [101]"
+  ],
+  "venue": "ICME",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Weakly supervised (MIL)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Two-branch framework pairing a CLIP-driven vision-language branch, which generates pseudo anomaly cues from visual-concept priors, with multi-scale instance learning that models temporal correlation between adjacent snippets to reduce the false alarms typical of standard MIL.",
+  "taxonomy": "Weakly Supervised / Vision-Language Adaptation",
+  "badges": [
+   "CLIP-driven",
+   "Multi-scale instance learning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-101",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "wsvad-llmke",
+  "method": "WSVAD-LLMKE",
+  "title": "WSVAD-LLMKE — LLM Knowledge Enhancement",
+  "authors": [
+   "See reference [102]"
+  ],
+  "venue": "ICTAI",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "LLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "ShanghaiTech"
+  ],
+  "summary": "MIL detection framework that queries large language models for anomaly context-boundary prompts to fix the fuzzy temporal boundaries of binary-labeled anomalies, using Anomaly Temporal Feature Amplification and Anomaly Knowledge Enhancement modules that mutually reinforce each other.",
+  "taxonomy": "Weakly Supervised / LLM Knowledge Enhancement",
+  "badges": [
+   "LLM knowledge",
+   "Enhancement framework"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-102",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "callm",
+  "method": "CALLM",
+  "title": "CALLM — LLM Knowledge Enhancement",
+  "authors": [
+   "Apostolos Ntelopoulos",
+   "Kamal Nasrollahi"
+  ],
+  "venue": "IPTA",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "LLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "CALLM cascades a 3D deep autoencoder with a large video-language model: the autoencoder's binary classification flags abnormality and triggers a follow-up query to the LVLM for detailed explanation, using weakly supervised caption extraction and pseudo-instruction injection to improve performance.",
+  "taxonomy": "Weakly Supervised / LLM Knowledge Enhancement",
+  "badges": [
+   "3D autoencoder",
+   "Video-LLaMA",
+   "Pseudo-instruction"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-113",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "missiongnn",
+  "method": "MissionGNN",
+  "title": "MissionGNN — Relation-Aware",
+  "authors": [
+   "See reference [116]"
+  ],
+  "venue": "WACV",
+  "year": 2025,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "LLM",
+   "GNN"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "Generates mission-specific knowledge graphs with an LLM and ConceptNet, then applies hierarchical GNNs for weakly supervised anomaly recognition.",
+  "taxonomy": "Weakly Supervised / Relation-Aware",
+  "badges": [
+   "Knowledge graphs",
+   "Hierarchical GNN",
+   "ConceptNet"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-116",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "alan",
+  "method": "ALAN",
+  "title": "ALAN — Anomaly Retrieval",
+  "authors": [
+   "Peng Wu",
+   "Jing Liu",
+   "Xiangteng He",
+   "Yuxin Peng",
+   "Peng Wang",
+   "Yanning Zhang"
+  ],
+  "venue": "IEEE TIP",
+  "year": 2024,
+  "paradigm": "Weakly Supervised",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Weakly supervised",
+  "tasks": [
+   "Retrieval",
+   "Grounding"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "ALAN (Anomaly-Led Alignment Network) tackles Video Anomaly Retrieval, retrieving long untrimmed anomalous videos via text or audio queries; it uses anomaly-led sampling on key segments, a pretext task for fine-grained video-text association, and complementary cross-modal alignments, on new UCFCrime-AR and XDViolence-AR benchmarks.",
+  "taxonomy": "Weakly Supervised / Anomaly Retrieval",
+  "badges": [
+   "Video anomaly retrieval",
+   "Cross-modal alignment"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-117",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "lavad",
+  "method": "LAVAD",
+  "title": "LAVAD — Caption-Based Temporal Reasoning",
+  "authors": [
+   "Luca Zanella",
+   "Willi Menapace",
+   "Massimiliano Mancini",
+   "Yiming Wang",
+   "Elisa Ricci"
+  ],
+  "venue": "CVPR",
+  "year": 2024,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "VLM",
+   "LLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Temporal localization",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "UBnormal"
+  ],
+  "summary": "LAVAD is a training-free method that turns VAD into language-based reasoning: a VLM captioning model describes each frame, an LLM aggregates captions over temporal windows to estimate anomaly scores, and cross-modal similarity cleans noisy captions and refines the scores.",
+  "taxonomy": "Training-Free / Caption-Based Temporal Reasoning",
+  "badges": [
+   "Caption-based",
+   "LLM reasoning",
+   "Cross-modal refinement"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-118",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vera",
+  "method": "VERA",
+  "title": "VERA — Verbalized Reasoning",
+  "authors": [
+   "Muchao Ye",
+   "Weiyang Liu",
+   "Pan He"
+  ],
+  "venue": "CVPR",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "VERA is a verbalized learning framework letting frozen VLMs perform explainable VAD without parameter updates: it decomposes VAD reasoning into learnable guiding questions optimized via data-driven verbal interactions on coarsely labeled data, then fuses scene and temporal context into frame-level anomaly scores.",
+  "taxonomy": "Training-Free / Verbalized Reasoning",
+  "badges": [
+   "Guiding questions",
+   "Prompt adaptation",
+   "Explainable"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-130",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "suvad",
+  "method": "SUVAD",
+  "title": "SUVAD — Semantic Understanding",
+  "authors": [
+   "Shibo Gao",
+   "Peipei Yang",
+   "Linlin Huang"
+  ],
+  "venue": "ICASSP",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "SUVAD is a training-free MLLM-based method that generates detailed textual descriptions of video content for semantic understanding, then detects anomalies directly via an LLM from those descriptions, with techniques to mitigate MLLM hallucination and support flexible, scene-adaptable anomaly definitions.",
+  "taxonomy": "Training-Free / Semantic Understanding",
+  "badges": [
+   "MLLM",
+   "Event lists",
+   "Flexible definitions"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-131",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "eventvad",
+  "method": "EventVAD",
+  "title": "EventVAD — Event-Aware Reasoning",
+  "authors": [
+   "See reference [127]"
+  ],
+  "venue": "ACM MM",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Temporal localization"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Segments long videos into event-consistent units via dynamic spatiotemporal graph modeling, statistical boundary detection, and hierarchical prompting before anomaly scoring.",
+  "taxonomy": "Training-Free / Event-Aware Reasoning",
+  "badges": [
+   "Event segmentation",
+   "Spatiotemporal graph",
+   "Hierarchical prompting"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-127",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "mcanet",
+  "method": "MCANet",
+  "title": "MCANet — Multimodal Caption-Aware",
+  "authors": [
+   "See reference [132]"
+  ],
+  "venue": "ICPR",
+  "year": 2024,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "LLM",
+   "Audio"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "UBnormal"
+  ],
+  "summary": "Multimodal caption-aware training-free VAD combining visual, audio, and language cues via a large language model.",
+  "taxonomy": "Training-Free / Multimodal Caption-Aware",
+  "badges": [
+   "Multimodal",
+   "Caption-aware",
+   "Audio"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-132",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "flashback",
+  "method": "Flashback",
+  "title": "Flashback — Memory-Driven",
+  "authors": [
+   "See reference [124]"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "LLM",
+   "Cross-modal"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Builds an offline pseudo-scene memory of LLM-generated normal and anomalous captions embedded with a frozen encoder; online segments are matched by similarity search, removing expensive online LLM calls for real-time zero-shot VAD.",
+  "taxonomy": "Training-Free / Memory-Driven",
+  "badges": [
+   "Offline pseudo-scene memory",
+   "Real-time",
+   "Similarity search"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-124",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "panda",
+  "method": "PANDA",
+  "title": "PANDA — Agentic Pipelines",
+  "authors": [
+   "See reference [128]"
+  ],
+  "venue": "NeurIPS",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "MLLM",
+   "Agent"
+  ],
+  "training": "Training-free (agentic)",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "UBnormal"
+  ],
+  "summary": "MLLM-based agentic AI engineer for generalist VAD without training data or human tuning, combining scene-aware RAG strategy planning, heuristic-guided reasoning, tool-augmented self-reflection, and a chain-of-memory mechanism that lets it improve from past cases.",
+  "taxonomy": "Training-Free / Agentic Pipelines",
+  "badges": [
+   "Agentic AI",
+   "Generalist VAD"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-128",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "qvad",
+  "method": "QVAD",
+  "title": "QVAD — Agentic Pipelines",
+  "authors": [
+   "See reference [123]"
+  ],
+  "venue": "arXiv",
+  "year": 2026,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "VLM",
+   "Agent"
+  ],
+  "training": "Training-free (agentic)",
+  "tasks": [
+   "Detection",
+   "Retrieval",
+   "Grounding"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "UBnormal"
+  ],
+  "summary": "Treats VLM-LLM interaction as a dynamic dialogue instead of static prompting: an LLM agent iteratively refines queries from visual context so lightweight VLMs produce high-fidelity captions, reaching state-of-the-art results with a fraction of the parameters of larger training-free methods.",
+  "taxonomy": "Training-Free / Agentic Pipelines",
+  "badges": [
+   "Question-centric",
+   "Agentic",
+   "Efficient"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-123",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vadtree",
+  "method": "VADTree",
+  "title": "VADTree — Hierarchical Reasoning",
+  "authors": [
+   "See reference [129]"
+  ],
+  "venue": "NeurIPS",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Builds a Hierarchical Granularity-aware Tree from a pretrained event-boundary detector to replace fixed-length window sampling: generic event nodes are structured coarse-to-fine, scored by VLMs with injected priors and reasoned over by LLMs, then merged via inter-cluster correlation.",
+  "taxonomy": "Training-Free / Hierarchical Reasoning",
+  "badges": [
+   "Granularity-aware tree",
+   "Explainable"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-129",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "monitor",
+  "method": "MoniTor",
+  "title": "MoniTor — Online Reasoning",
+  "authors": [
+   "See reference [126]"
+  ],
+  "venue": "NeurIPS",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "LLM"
+  ],
+  "training": "Training-free (online)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "First training-free approach to online VAD: streams frames to a VLM while an LSTM-inspired mechanism models past states, and a dynamically updated scoring queue with an anomaly prior guides the LLM to distinguish normal from abnormal behavior over time.",
+  "taxonomy": "Training-Free / Online Reasoning",
+  "badges": [
+   "Instruction",
+   "Online VAD"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-126",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "tfplg",
+  "method": "TFPLG",
+  "title": "TFPLG — Pseudo-Label Generation",
+  "authors": [
+   "See reference [125]"
+  ],
+  "venue": "IEEE Access",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Training-free (pseudo-label)",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Triple-branch training-free module that uses CLIP's vision-language alignment and a threshold-guided similarity match, rather than a learned classifier, to generate fine- and coarse-grained pseudo-labels, with transformer and GCN branches capturing short- and long-range temporal dependencies.",
+  "taxonomy": "Training-Free / Pseudo-Label Generation",
+  "badges": [
+   "VLM",
+   "Pseudo labels",
+   "Auxiliary supervision"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-125",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "anyanomaly",
+  "method": "AnyAnomaly",
+  "title": "AnyAnomaly — Customizable Reasoning",
+  "authors": [
+   "Sunghyun Ahn",
+   "Youngwan Jo",
+   "Kijung Lee",
+   "Sein Kwon",
+   "Inpyo Hong",
+   "Sanghyun Park"
+  ],
+  "venue": "WACV",
+  "year": 2026,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "LVLM"
+  ],
+  "training": "Training-free (customizable)",
+  "tasks": [
+   "Detection",
+   "Question answering"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "AnyAnomaly introduces customizable video anomaly detection (C-VAD), where user-defined text specifies the abnormal event; it performs segment-level, context-aware visual question answering with a frozen large vision-language model using key-frame selection and grid-format temporal context, without fine-tuning.",
+  "taxonomy": "Training-Free / Customizable Reasoning",
+  "badges": [
+   "Customizable VAD",
+   "Context-aware VQA",
+   "Key frames"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-133",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "anomaly-ov",
+  "method": "Anomaly-OV",
+  "title": "Anomaly-OV — Open-Ended Reasoning",
+  "authors": [
+   "Jiacong Xu",
+   "Shao-Yuan Lo",
+   "Bardia Safaei",
+   "Vishal M. Patel",
+   "Isht Dwivedi"
+  ],
+  "venue": "CVPR",
+  "year": 2025,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Training-free (zero-shot)",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "Anomaly-OV (Anomaly-OneVision) is a specialist visual assistant for zero-shot anomaly detection and reasoning with MLLMs, using a Look-Twice Feature Matching mechanism to adaptively select and emphasize abnormal visual tokens; trained on the new Anomaly-Instruct-125k dataset and evaluated on VisA-D&R.",
+  "taxonomy": "Training-Free / Open-Ended Reasoning",
+  "badges": [
+   "Zero-shot",
+   "Visual token selection",
+   "Reasoning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-134",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "visiongpt",
+  "method": "VisionGPT",
+  "title": "VisionGPT — Application-Specific",
+  "authors": [
+   "Hao Wang",
+   "Jiayou Qin",
+   "Ashish Bastola",
+   "Xiwen Chen",
+   "Zihao Gong",
+   "et al."
+  ],
+  "venue": "arXiv",
+  "year": 2024,
+  "paradigm": "Training-Free",
+  "modelTypes": [
+   "LLM"
+  ],
+  "training": "Training-free",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "VisionGPT pairs the open-world detector YOLO-World with specialized LLM prompts for zero-shot anomaly detection in navigation frames, generating concise audio-delivered descriptions of obstacles and enabling dynamic scene switching to assist safe visual navigation in complex environments.",
+  "taxonomy": "Training-Free / Application-Specific",
+  "badges": [
+   "LLM-assisted",
+   "Safe navigation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-138",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "holmes-vad",
+  "method": "Holmes-VAD",
+  "title": "Holmes-VAD — Anomaly Understanding",
+  "authors": [
+   "Huaxin Zhang",
+   "Xiaohao Xu",
+   "Xiang Wang",
+   "Jialong Zuo",
+   "Chuchu Han",
+   "et al."
+  ],
+  "venue": "arXiv",
+  "year": 2024,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Instruction tuning",
+  "tasks": [
+   "Detection",
+   "Explanation",
+   "Question answering"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Holmes-VAD builds VAD-Instruct50k, a large-scale multimodal instruction-tuning benchmark created via semi-automatic labeling with a video captioner and an LLM, then trains a lightweight temporal sampler to select high-anomaly-response frames and fine-tunes an MLLM for anomaly localization and explanation.",
+  "taxonomy": "Instruction-Tuned / Anomaly Understanding",
+  "badges": [
+   "VADInstruct50K",
+   "Temporal sampler",
+   "LoRA"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-122",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "holmes-vau",
+  "method": "Holmes-VAU",
+  "title": "Holmes-VAU — Any-Granularity Understanding",
+  "authors": [
+   "Huaxin Zhang",
+   "Xiaohao Xu",
+   "Xiang Wang",
+   "Jialong Zuo",
+   "Xiaonan Huang",
+   "et al."
+  ],
+  "venue": "CVPR",
+  "year": 2025,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Instruction tuning",
+  "tasks": [
+   "Detection",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Holmes-VAU introduces HIVAU-70k, a hierarchical clip/event/video-level instruction benchmark built via a semi-automated annotation engine, and an Anomaly-focused Temporal Sampler that combines an anomaly scorer with density-aware sampling to direct a multimodal LLM toward anomaly-rich segments in long videos.",
+  "taxonomy": "Instruction-Tuned / Any-Granularity Understanding",
+  "badges": [
+   "HIVAU-70K",
+   "Anomaly-focused sampler",
+   "Hierarchical"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-61",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "hawk",
+  "method": "HAWK",
+  "title": "HAWK — Open-World Understanding",
+  "authors": [
+   "Jiaqi Tang",
+   "Hao Lu",
+   "Ruizheng Wu",
+   "Xiaogang Xu",
+   "Ke Ma",
+   "et al."
+  ],
+  "venue": "NeurIPS",
+  "year": 2024,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Instruction tuning",
+  "tasks": [
+   "Explanation",
+   "Question answering"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "HAWK integrates motion modality into a VLM via an auxiliary consistency loss and explicit motion-to-language supervision, trained on over 8,000 anomaly videos with language descriptions plus 8,000 QA pairs, achieving state-of-the-art video description generation and question-answering performance.",
+  "taxonomy": "Instruction-Tuned / Open-World Understanding",
+  "badges": [
+   "Motion-language",
+   "Multi-dataset QA"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-140",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "assistpda",
+  "method": "AssistPDA",
+  "title": "AssistPDA — Online Assistance",
+  "authors": [
+   "Zhiwei Yang",
+   "Chen Gao",
+   "Jing Liu",
+   "Peng Wu",
+   "Guansong Pang",
+   "Mike Zheng Shou"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Instruction tuning (online)",
+  "tasks": [
+   "Detection",
+   "Explanation",
+   "Question answering"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "AssistPDA is the first online video surveillance assistant unifying anomaly prediction, detection, and analysis (VAPDA) for streaming video; a Spatio-Temporal Relation Distillation module transfers offline VLM spatiotemporal modeling to real-time inference, trained on the new VAPDA-127K benchmark.",
+  "taxonomy": "Instruction-Tuned / Online Assistance",
+  "badges": [
+   "VAPDA-127K",
+   "Streaming",
+   "Spatiotemporal relation distillation"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-141",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vad-r1",
+  "method": "Vad-R1",
+  "title": "Vad-R1 — Anomaly Reasoning",
+  "authors": [
+   "Chao Huang",
+   "Benfeng Wang",
+   "Jie Wen",
+   "Chengliang Liu",
+   "Wei Wang",
+   "et al."
+  ],
+  "venue": "NeurIPS",
+  "year": 2026,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Instruction tuning + RL",
+  "tasks": [
+   "Detection",
+   "Reasoning",
+   "Explanation"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "Vad-R1 introduces Video Anomaly Reasoning (VAR), requiring MLLMs to reason step-by-step via a Perception-to-Cognition Chain-of-Thought; trained on the new Vad-Reasoning dataset with supervised fine-tuning followed by AVA-GRPO reinforcement learning using a self-verification reward under limited annotations.",
+  "taxonomy": "Instruction-Tuned / Anomaly Reasoning",
+  "badges": [
+   "Perception-to-Cognition CoT",
+   "AVA-GRPO",
+   "Reasoning"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-142",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "vau-r1",
+  "method": "VAU-R1",
+  "title": "VAU-R1 — Anomaly Reasoning",
+  "authors": [
+   "Liyun Zhu",
+   "Qixiang Chen",
+   "Xi Shen",
+   "Xiaodong Cun"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "MLLM"
+  ],
+  "training": "Instruction tuning + RL",
+  "tasks": [
+   "Question answering",
+   "Grounding",
+   "Reasoning",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "VAU-R1 uses reinforcement fine-tuning on MLLMs to improve anomaly reasoning, decomposing understanding into multiple-choice QA, temporal grounding, and reasoning tasks; paired with VAU-Bench, the first chain-of-thought benchmark for video anomaly reasoning with rationales and temporal annotations.",
+  "taxonomy": "Instruction-Tuned / Anomaly Reasoning",
+  "badges": [
+   "Reinforcement fine-tuning",
+   "GRPO",
+   "Multi-task"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-143",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "sherlock",
+  "method": "Sherlock",
+  "title": "Sherlock — Structured Extraction",
+  "authors": [
+   "Junxiao Ma",
+   "Jingjing Wang",
+   "Jiamin Luo",
+   "Peiying Yu",
+   "Guodong Zhou"
+  ],
+  "venue": "ACM Web Conf",
+  "year": 2025,
+  "paradigm": "Instruction-Tuned",
+  "modelTypes": [
+   "LLM"
+  ],
+  "training": "Instruction tuning",
+  "tasks": [
+   "Detection",
+   "Grounding",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "Sherlock tackles Multi-scene Video Abnormal Event Extraction and Localization (M-VAE): a Global-local Spatial-enhanced MoE module extracts subject/event-type/object/scene quadruples using global-local spatial modeling, while a Spatial Imbalance Regulator balances the mixture-of-experts against skewed spatial-information frequencies.",
+  "taxonomy": "Instruction-Tuned / Structured Extraction",
+  "badges": [
+   "Multi-scene",
+   "Quadruple extraction",
+   "Spatial experts"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-144",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "ovvad",
+  "method": "OVVAD",
+  "title": "OVVAD — Detect + Categorize",
+  "authors": [
+   "Peng Wu",
+   "Xuerong Zhou",
+   "Guansong Pang",
+   "Yujia Sun",
+   "Jing Liu",
+   "et al."
+  ],
+  "venue": "CVPR",
+  "year": 2024,
+  "paradigm": "Open-World / Open-Vocabulary",
+  "modelTypes": [
+   "CLIP",
+   "LLM"
+  ],
+  "training": "Open-vocabulary",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence",
+   "UBnormal"
+  ],
+  "summary": "OVVAD decouples open-vocabulary VAD into class-agnostic detection and class-specific classification, jointly optimized: a semantic knowledge injection module brings LLM knowledge to detection, while an anomaly synthesis module generates pseudo unseen-anomaly videos via large vision generation models for classification.",
+  "taxonomy": "Open-World / Open-Vocabulary / Detect + Categorize",
+  "badges": [
+   "Class-agnostic detection",
+   "Novel-anomaly synthesis",
+   "Semantic injection"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-119",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "anomize",
+  "method": "Anomize",
+  "title": "Anomize — Novel-Category Alignment",
+  "authors": [
+   "Fei Li",
+   "Wenxuan Liu",
+   "Jingjing Chen",
+   "Ruixu Zhang",
+   "Yuran Wang",
+   "et al."
+  ],
+  "venue": "CVPR",
+  "year": 2025,
+  "paradigm": "Open-World / Open-Vocabulary",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Open-vocabulary",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Anomize targets two challenges in open-vocabulary VAD -- detection ambiguity and categorization confusion -- using multi-level visual data with matching textual information to score novel anomalies, plus label-relation-guided text encoding that better aligns novel videos with their labels.",
+  "taxonomy": "Open-World / Open-Vocabulary / Novel-Category Alignment",
+  "badges": [
+   "Dual-stream",
+   "Group-guided text encoding"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-120",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "plovad",
+  "method": "PLOVAD",
+  "title": "PLOVAD — Prompt Adaptation",
+  "authors": [
+   "Chenting Xu",
+   "Ke Xu",
+   "Xinghao Jiang",
+   "Tanfeng Sun"
+  ],
+  "venue": "IEEE TCSVT",
+  "year": 2025,
+  "paradigm": "Open-World / Open-Vocabulary",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Open-vocabulary (prompt tuning)",
+  "tasks": [
+   "Detection",
+   "Classification"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "PLOVAD prompt-tunes frozen image-based vision-language models for open-vocabulary VAD via a Prompting Module -- a learnable domain-specific prompt plus an LLM-crafted anomaly-specific prompt -- and a Temporal Module that stacks a graph attention network atop frame-wise visual features for video-level localization.",
+  "taxonomy": "Open-World / Open-Vocabulary / Prompt Adaptation",
+  "badges": [
+   "Domain prompt",
+   "LLM anomaly prompt",
+   "GAT temporal"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-121",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "mel-vlp",
+  "method": "MEL-VLP",
+  "title": "MEL-VLP — Uncertainty Calibration",
+  "authors": [
+   "See reference [145]"
+  ],
+  "venue": "IEEE TMM",
+  "year": 2025,
+  "paradigm": "Open-World / Open-Vocabulary",
+  "modelTypes": [
+   "CLIP"
+  ],
+  "training": "Open-world weakly supervised",
+  "tasks": [
+   "Detection"
+  ],
+  "datasets": [
+   "UCF-Crime",
+   "XD-Violence"
+  ],
+  "summary": "Open-world weakly supervised setting using multi-scale temporal modeling and multimodal evidential collaborative learning to estimate uncertainty and dynamically calibrate anomaly boundaries.",
+  "taxonomy": "Open-World / Open-Vocabulary / Uncertainty Calibration",
+  "badges": [
+   "Evidential learning",
+   "Multi-scale",
+   "Boundary calibration"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-145",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ },
+ {
+  "slug": "lagovad",
+  "method": "LaGoVAD",
+  "title": "LaGoVAD — Language-Guided Definitions",
+  "authors": [
+   "Zihao Liu",
+   "Xiaoyu Wu",
+   "Jianqin Wu",
+   "Xuxu Wang",
+   "Linlin Yang"
+  ],
+  "venue": "arXiv",
+  "year": 2025,
+  "paradigm": "Open-World / Open-Vocabulary",
+  "modelTypes": [
+   "VLM"
+  ],
+  "training": "Open-world (language-guided)",
+  "tasks": [
+   "Detection",
+   "Classification",
+   "Grounding"
+  ],
+  "datasets": [
+   "UCF-Crime"
+  ],
+  "summary": "LaGoVAD supports open-world VAD with variable anomaly definitions guided by user-provided natural language at inference; it adapts via dynamic video synthesis for duration diversity and contrastive learning with negative mining, trained on the new 35,279-video PreVAD dataset with anomaly descriptions.",
+  "taxonomy": "Open-World / Open-Vocabulary / Language-Guided Definitions",
+  "badges": [
+   "Variable anomaly definitions",
+   "Video-text fusion",
+   "PreVAD"
+  ],
+  "code": false,
+  "paperUrl": "/survey/full/#ref-146",
+  "added": "v1.0",
+  "updated": "v1.0",
+  "verified": "Sourced from survey PDF",
+  "status": "From survey PDF — verify links",
+  "isLM": true
+ }
+]
